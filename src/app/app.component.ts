@@ -10,7 +10,7 @@ import { NavigationCancel, NavigationEnd, NavigationError, NavigationStart, Rout
   encapsulation: ViewEncapsulation.None
 })
 export class AppComponent {
-  language: string = 'en';
+  language: string = 'ar';
   isLoading = true;
   isScrolled = false;
 
