@@ -110,12 +110,12 @@
   }
 
   h2::before {
-    left: -120px;
+    left: -140px;
     transform: translateY(-50%);
   }
 
   h2::after {
-    right: -120px;
+    right: -140px;
     transform: translateY(-50%);
   }
 /* RTL adjustments */

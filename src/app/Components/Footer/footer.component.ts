@@ -1,6 +1,8 @@
 import { Component, HostListener } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { LanguageService } from 'src/app/Services/language.service';
+import { VideoControlService } from 'src/app/Services/VideoControl.service';
+
 
 @Component({
   selector: 'app-footer',
@@ -10,7 +12,7 @@ import { LanguageService } from 'src/app/Services/language.service';
 export class FooterComponent {
   language: string = 'en';
 
-  constructor(private languageService: LanguageService) { }
+  constructor(private languageService: LanguageService,private videoControlService: VideoControlService) { }
 
 
   ngOnInit() {
@@ -29,12 +31,14 @@ export class FooterComponent {
     this.showScrollToTopButton = window.scrollY > 300; // Adjust as needed
   }
 
-  scrollToTop() {
+ scrollToTop() {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
     });
+    this.videoControlService.stopVideo(); // Notify that the video should stop
   }
+
 
   goToFacebook() {
     window.open('https://www.facebook.com/people/Ghaya-%D8%BA%D8%A7%D9%8A%D8%A7/61565473809199/', '_blank');

@@ -9,7 +9,7 @@ import { LanguageService } from 'src/app/Services/language.service';
 export class ContentcreationComponent {
 
   language: string = 'en';
-
+  isArabic: boolean = false;
   @HostBinding('attr.dir') get dir() {
     return this.language === 'ar' ? 'rtl' : 'ltr';
   }
@@ -20,6 +20,7 @@ export class ContentcreationComponent {
     // Subscribe to language changes
     this.languageService.getLanguage().subscribe(language => {
       this.language = language;
+      this.isArabic = this.language === 'ar';
     });
   }
 
@@ -37,5 +38,6 @@ export class ContentcreationComponent {
     // Open the mailto URL
     window.location.href = mailtoUrl;
   }
+  
 }
 

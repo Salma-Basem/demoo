@@ -44,6 +44,7 @@
 
                 <div class="mb-5">
                     <!-- More Content -->
+                    
                     <p class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD1.DETAILS.POINT1' | translate | newlineToBr"></p>
                     <p class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD1.DETAILS.POINT2' | translate | newlineToBr"></p>
                     <p class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD1.DETAILS.POINT3' | translate | newlineToBr"></p>
@@ -60,9 +61,8 @@
             <p class="fw-bolder h4" [innerHTML]="'GHAYA_AWARDS.AWARD1.DETAILS.POINT9' | translate | newlineToBr"></p>
 
             <ul class="custom-list">
-                <li class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD1.DETAILS.POINT10' | translate | newlineToBr"></li>
+                <li *ngIf="isArabic" class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD1.DETAILS.POINT0'| translate | newlineToBr"></li>
                 <li class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD1.DETAILS.POINT11' | translate | newlineToBr"></li>
-                <li class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD1.DETAILS.POINT12' | translate | newlineToBr"></li>
                 <li class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD1.DETAILS.POINT13' | translate | newlineToBr"></li>
                 <li class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD1.DETAILS.POINT14' | translate | newlineToBr"></li>
                 <li class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD1.DETAILS.POINT15' | translate | newlineToBr"></li>
@@ -74,7 +74,10 @@
                 
                 <a (click)="goToGmail()" class="cursor-pointer h5 text-center">
                     awards&#64;ghayaeg.com
-                </a>  </div>
+                </a>  
+                </div>
+                <li *ngIf="isArabic" class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD1.DETAILS.POINT26'| translate | newlineToBr"></li>
+
                 </ul>
                 <p class="fw-bolder h4" [innerHTML]="'GHAYA_AWARDS.AWARD1.DETAILS.POINT18' | translate | newlineToBr"></p>
                 <ul class="custom-list">
@@ -88,14 +91,9 @@
                     <li class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD1.DETAILS.POINT23' | translate | newlineToBr"></li>
                     <li class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD1.DETAILS.POINT24' | translate | newlineToBr"></li>
                     <li class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD1.DETAILS.POINT25' | translate | newlineToBr"></li>
-                    </ul>
-            <div class="row justify-content-center align-items-center">
-
-                <a (click)="goToGmail()" class="text-center cursor-pointer h4">
-                  <i class="fa-solid fa-envelope text-main fa-bounce ms-2 me-2"></i>
-                  awards&#64;ghayaeg.com
-              </a>          
-            </div>
+                   
+                </ul>
+           
         </div>
     </div>
 </div>

@@ -8,7 +8,7 @@ import { LanguageService } from 'src/app/Services/language.service';
 })
 export class ShortstoryComponent {
   language: string = 'en';
-
+  isArabic: boolean = false;
   @HostBinding('attr.dir') get dir() {
     return this.language === 'ar' ? 'rtl' : 'ltr';
   }
@@ -19,6 +19,7 @@ export class ShortstoryComponent {
     // Subscribe to language changes
     this.languageService.getLanguage().subscribe(language => {
       this.language = language;
+      this.isArabic = this.language === 'ar';
     });
   }
 

@@ -58,11 +58,19 @@
                     <li class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD3.DETAILS.POINT10' | translate | newlineToBr"></li>
                     <li class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD3.DETAILS.POINT11' | translate | newlineToBr"></li>
                     <li class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD3.DETAILS.POINT12' | translate | newlineToBr"></li>
+                    <li *ngIf="isArabic" class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD3.DETAILS.POINT27'| translate | newlineToBr"></li>
                     <li class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD3.DETAILS.POINT13' | translate | newlineToBr"></li>
                     <li class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD3.DETAILS.POINT14' | translate | newlineToBr"></li>
-               
-                    
+                    <div class="row justify-content-top align-items-center">
+                
+                      <a (click)="goToGmail()" class="cursor-pointer h5 text-center">
+                          awards&#64;ghayaeg.com
+                      </a>  
+                    </div>
+                    <li *ngIf="isArabic" class="lead" [innerHTML]="'GHAYA_AWARDS.AWARD3.DETAILS.POINT28' | translate | newlineToBr"></li>
+
                 </ul>
+                
                 <p class="fw-bolder h4" [innerHTML]="'GHAYA_AWARDS.AWARD3.DETAILS.POINT15' | translate | newlineToBr"></p>
 
                 <ul class="custom-list">
