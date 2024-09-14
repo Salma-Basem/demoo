@@ -1,10 +1,9 @@
-
 p
 {
     color:var(--text-color);
 }
 
-/* General body styling */
+
 html, body {
     margin: 0;
     padding: 0;
@@ -67,35 +66,7 @@ html, body {
     padding: 20px; /* Padding for the content */
   }
   
-  /* Responsive design adjustments */
-  @media (max-width: 768px) {
-    .container{
-    width: 100%;
-    }
-    .english h1.title-color {
-        font-size: 1.5rem; /* Adjust for small screens */
-    }
-  
-    .english h2.title-color {
-        font-size: 0.8rem; /* Adjust for small screens */
-    }
-  
-    .arabic h1.title-color {
-        font-size: 3rem; /* Adjust for small screens */
-    }
-  
-    .arabic h2.title-color {
-        font-size: 1.5rem; /* Adjust for small screens */
-    }
-  
-    .overlay {
-        padding: 10px; /* Add padding to the overlay for better spacing */
-    }
-  
-    .background-container {
-        height: 40vh; /* Adjust height for smaller screens */
-    }
-  }
+
   
   /* Animation for scaling the background */
   @keyframes scaleBackground {
@@ -164,8 +135,35 @@ html, body {
   height: 100%;
   border: 0;
 }
-
-   @media (max-width: 768px) {
+  /* Responsive design adjustments */
+  @media (max-width: 768px) {
+    .container{
+    width: 100%;
+    }
+    .english h1.title-color {
+        font-size: 1.5rem; /* Adjust for small screens */
+    }
+  
+    .english h2.title-color {
+        font-size: 0.8rem; /* Adjust for small screens */
+    }
+  
+    .arabic h1.title-color {
+        font-size: 3rem; /* Adjust for small screens */
+    }
+  
+    .arabic h2.title-color {
+        font-size: 1.5rem; /* Adjust for small screens */
+    }
+  
+    .overlay {
+        padding: 10px; /* Add padding to the overlay for better spacing */
+    }
+  
+    .background-container {
+        height: 40vh; /* Adjust height for smaller screens */
+    }
+  
     [dir="rtl"] h2::after,  [dir="rtl"] h2::before  {
       width: 0%;
     }

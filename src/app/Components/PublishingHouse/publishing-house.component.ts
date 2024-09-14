@@ -21,10 +21,11 @@ export class PublishingHouseComponent {
       this.language = language;
     });
   }
-
+    // Switching Languages 
   changeLanguage(newLanguage: string) {
     this.languageService.setLanguage(newLanguage);
   }
+  //Gmail Method 
   goToGmail(): void {
     const toEmailAddress = 'publishing@ghayaeg.com';
     const subject = '';

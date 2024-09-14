@@ -12,18 +12,23 @@
   <div class="container-fluid bg-main py-2 " [attr.dir]="language === 'ar' ? 'rtl' : 'ltr'">
 
     <div class="container py-1 mt-1 ">
+      <!--Video  section-->
       <div class="container mx-auto">
         <div class="video-wrapper">
-          <iframe id="videoIframe" 
-                  src="https://www.youtube.com/embed/K4TOrB7at0Y?autoplay=1" 
-                  title="YouTube video player" frameborder="0" 
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                  allowfullscreen></iframe>
-        </div>
+          <iframe width="560" height="315" 
+          src="https://www.youtube.com/embed/skpIFzbJl88?autoplay=1&loop=1&playlist=skpIFzbJl88&si=AyBnNbrxID6sEx0X&start=1" 
+          title="YouTube video player" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen>
+          </iframe>
+  
+          </div>
       </div>
-        <div  class="container mx-auto mt-3">
-            <!-- AWARDS BRIEF Section -->
-            <!-- more content -->
+      <!--Project1  section-->
+      <div  class="container mx-auto mt-3">
+         
             <p class=" text-main lead  mb-3">{{ 'GHAYA_PROJECTS.PROJECT1.DETAILS.POINT1' | translate }}</p>
             <p class=" text-main lead  mb-3">{{ 'GHAYA_PROJECTS.PROJECT1.DETAILS.POINT2' | translate }}</p>
             <p class=" text-main lead  mb-3">{{ 'GHAYA_PROJECTS.PROJECT1.DETAILS.POINT3' | translate }}</p>
@@ -36,6 +41,6 @@
               publishing&#64;ghayaeg.com
           </a>          
         </div>
-          </div>
+      </div>
     </div>
     </div>
