@@ -2,10 +2,6 @@ p
 {
     color:var(--text-color);
 }
-p
-{
-    color:var(--text-color);
-}
 
 /* General body styling */
 html, body {
@@ -111,20 +107,9 @@ html, body {
   left: 0; /* Position on the left for LTR */
 }
 
-/* RTL adjustments for the dash */
-[dir="rtl"] .custom-list li {
-  padding-left: 0; /* Remove extra padding in RTL */
-  padding-right: 1.5rem; /* Add padding for dash in RTL */
-}
-
-[dir="rtl"] .custom-list li::before {
-  left: auto; /* Override left positioning in RTL */
-  right: 0; /* Position dash on the right for RTL */
-}
-
-[dir="rtl"] .custom-list {
-  direction: rtl; /* Ensure RTL support */
-}
+.container{
+  width: 85%;
+ }
   
   /* Animation for scaling the background */
   @keyframes scaleBackground {
@@ -176,9 +161,21 @@ html, body {
   left: -140px; /* Adjust this value as needed */
   width: 150px; /* Adjust line length */
 }
- .container{
-  width: 85%;
- }
+/* RTL adjustments for the dash */
+[dir="rtl"] .custom-list li {
+  padding-left: 0; /* Remove extra padding in RTL */
+  padding-right: 1.5rem; /* Add padding for dash in RTL */
+}
+
+[dir="rtl"] .custom-list li::before {
+  left: auto; /* Override left positioning in RTL */
+  right: 0; /* Position dash on the right for RTL */
+}
+
+[dir="rtl"] .custom-list {
+  direction: rtl; /* Ensure RTL support */
+}
+
  /* Responsive design adjustments */
  @media (max-width: 768px) {
   .container{
