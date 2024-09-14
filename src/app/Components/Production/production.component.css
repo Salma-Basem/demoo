@@ -11,7 +11,6 @@
     text-align: left; /* Align text to the left for LTR */
   }
   
-  
   p,li
   {
       color:var(--text-color);
@@ -104,20 +103,6 @@
   left: 0; /* Position on the left for LTR */
 }
 
-/* RTL adjustments for the dash */
-[dir="rtl"] .custom-list li {
-  padding-left: 0; /* Remove extra padding in RTL */
-  padding-right: 1.5rem; /* Add padding for dash in RTL */
-}
-
-[dir="rtl"] .custom-list li::before {
-  left: auto; /* Override left positioning in RTL */
-  right: 0; /* Position dash on the right for RTL */
-}
-
-[dir="rtl"] .custom-list {
-  direction: rtl; /* Ensure RTL support */
-}
 
 .video-wrapper {
   position: relative;
@@ -138,7 +123,7 @@
 }
     
     /* Animation for scaling the background */
-    @keyframes scaleBackground {
+@keyframes scaleBackground {
       0% {
           transform: scale(1);
       }
@@ -148,8 +133,7 @@
     }
     
   h2 {
-    position: relative;
-   
+    position: relative; 
     margin: 0;
     padding: 0 20px; /* Space between text and lines */
     text-align: center;
@@ -186,6 +170,21 @@
   left: -140px; /* Adjust this value as needed */
   width: 150px; /* Adjust line length */
 }
+/* RTL adjustments for the dash */
+[dir="rtl"] .custom-list li {
+  padding-left: 0; /* Remove extra padding in RTL */
+  padding-right: 1.5rem; /* Add padding for dash in RTL */
+}
+
+[dir="rtl"] .custom-list li::before {
+  left: auto; /* Override left positioning in RTL */
+  right: 0; /* Position dash on the right for RTL */
+}
+
+[dir="rtl"] .custom-list {
+  direction: rtl; /* Ensure RTL support */
+}
+
  /* Responsive design adjustments */
  @media (max-width: 768px) {
   [dir="rtl"] h2::after,  [dir="rtl"] h2::before  {

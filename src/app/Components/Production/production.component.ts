@@ -21,10 +21,11 @@ export class ProductionComponent {
       this.language = language;
     });
   }
-
+  //Switching Between Languages
   changeLanguage(newLanguage: string) {
     this.languageService.setLanguage(newLanguage);
   }
+    // Redirect to Gmail Method
   goToGmail(): void {
     const toEmailAddress = 'production@ghayaeg.com';
     const subject = '';
@@ -36,6 +37,7 @@ export class ProductionComponent {
     // Open the mailto URL
     window.location.href = mailtoUrl;
   }
+  // Redirect to Website Method
   goToWebsite()
   {
     window.open('www.ghayaeg.com','_self')
