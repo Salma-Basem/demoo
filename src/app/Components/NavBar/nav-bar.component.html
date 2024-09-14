@@ -70,7 +70,7 @@
           <app-theme-switcher [ngClass]="{'ms-auto': language === 'en', 'me-auto': language === 'ar', 'me-2': language === 'en', 'ms-2': language === 'ar'}"></app-theme-switcher>
           <div>
             <button class="btn bg-transparent text-light translation" *ngIf="language === 'en'" (click)="switchLanguage('ar')">عربي</button>
-            <button class="btn bg-transparent text-light translation" *ngIf="language === 'ar'" (click)="switchLanguage('en')">{{ 'NAVBAR.English' | translate }}</button>
+            <button class="btn bg-transparent text-light translation" *ngIf="language === 'ar'" (click)="switchLanguage('en')">English</button>
           </div>
         </div>
       </div>
