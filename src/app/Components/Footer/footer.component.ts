@@ -37,7 +37,7 @@ export class FooterComponent {
   }
 
   goToFacebook() {
-    window.open('https://www.facebook.com/profile.php?id=61563488381588&mibextid=ZbWKwL', '_blank');
+    window.open('https://www.facebook.com/people/Ghaya-%D8%BA%D8%A7%D9%8A%D8%A7/61565473809199/', '_blank');
   }
   goToInstagram()
   {
@@ -56,7 +56,7 @@ export class FooterComponent {
 
   goToLinkedin()
   {
-    window.open('https://www.linkedin.com/in/ghaya-eg-3b726531a/','_blank')
+    window.open('https://www.linkedin.com/in/ghaya-%D8%BA%D8%A7%D9%8A%D8%A7-3b726531a/','_blank')
   }
 
   goToGmail()

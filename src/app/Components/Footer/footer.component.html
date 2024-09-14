@@ -41,15 +41,17 @@
                 <i class="fa-brands fa-instagram fa-fw mb-2 instagram"></i><span class="social-text">{{ language === 'ar' ? 'انستجرام': 'Instagram' }} </span>
             </div>
           
-            <div class="cursor-pointer" (click)="goToYoutube()">
-                <i class="fa-brands fa-youtube fa-fw mb-2 text-danger"></i><span class="social-text">{{ language === 'ar' ? ' يوتيوب': 'Youtube' }} </span>
-            </div>
-            <div class="cursor-pointer" (click)="goToTikTok()">
-                <i class="fa-brands fa-tiktok fa-fw mb-2 "></i><span class="social-text">{{ language === 'ar' ? ' تيك توك': 'TikTok' }} </span>
-            </div>
+           
+           
             <div class="cursor-pointer" (click)="goToTikTok()">
               <i class="fa-brands fa-x-twitter fa-fw mb-2"></i><span class="social-text">{{ language === 'ar' ? 'إكس': 'X' }} </span>
           </div>
+          <div class="cursor-pointer" (click)="goToTikTok()">
+            <i class="fa-brands fa-tiktok fa-fw mb-2 "></i><span class="social-text">{{ language === 'ar' ? ' تيك توك': 'TikTok' }} </span>
+        </div>
+          <div class="cursor-pointer" (click)="goToYoutube()">
+            <i class="fa-brands fa-youtube fa-fw mb-2 text-danger"></i><span class="social-text">{{ language === 'ar' ? ' يوتيوب': 'Youtube' }} </span>
+        </div>
             <div class="cursor-pointer" (click)="goToLinkedin()">
                 <i class="fa-brands fa-linkedin-in fa-fw mb-2 linkedin"></i><span class="social-text">{{ language === 'ar' ? ' لينكدإن': 'Linkedin' }} </span>
             </div>
@@ -66,7 +68,7 @@
   </div>
   
 <div class="container-fluid bg pb-2">
-  <h6 class="text-center text-main  mt-2 mb-1">{{ language === 'ar' ? '© جميع الحقوق محفوظة لمؤسسة غايا للإبداع ٢٠٢٤' : '© All rights reserved for Ghaya Publishing House 2024' }}</h6>
+  <h6 class="text-center text-main  mt-2 mb-1">{{ language === 'ar' ? '© جميع الحقوق محفوظة لمؤسسة غايا للإبداع ٢٠٢٤' : '© All rights reserved for Ghaya Foundation For Creativity 2024' }}</h6>
   <button *ngIf="showScrollToTopButton" (click)="scrollToTop()" class="scroll-to-top-btn border rounded-1">
     <i class="fa-solid fa-arrow-up "></i>
   </button>
