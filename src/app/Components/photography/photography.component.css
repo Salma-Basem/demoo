@@ -56,20 +56,7 @@ html, body {
   left: 0; /* Position on the left for LTR */
 }
 
-/* RTL adjustments for the dash */
-[dir="rtl"] .custom-list li {
-  padding-left: 0; /* Remove extra padding in RTL */
-  padding-right: 1.5rem; /* Add padding for dash in RTL */
-}
 
-[dir="rtl"] .custom-list li::before {
-  left: auto; /* Override left positioning in RTL */
-  right: 0; /* Position dash on the right for RTL */
-}
-
-[dir="rtl"] .custom-list {
-  direction: rtl; /* Ensure RTL support */
-}
   /* Background image with animation */
   .background-container {
     position: relative;
@@ -173,6 +160,20 @@ html, body {
   right: auto;
   left: -140px; /* Adjust this value as needed */
   width: 150px; /* Adjust line length */
+}
+/* RTL adjustments for the dash */
+[dir="rtl"] .custom-list li {
+  padding-left: 0; /* Remove extra padding in RTL */
+  padding-right: 1.5rem; /* Add padding for dash in RTL */
+}
+
+[dir="rtl"] .custom-list li::before {
+  left: auto; /* Override left positioning in RTL */
+  right: 0; /* Position dash on the right for RTL */
+}
+
+[dir="rtl"] .custom-list {
+  direction: rtl; /* Ensure RTL support */
 }
   /* Responsive design adjustments */
   @media (max-width: 768px) {
