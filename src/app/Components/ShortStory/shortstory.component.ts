@@ -25,6 +25,7 @@ export class ShortstoryComponent {
   changeLanguage(newLanguage: string) {
     this.languageService.setLanguage(newLanguage);
   }
+  // Redirect to gmail Method 
   goToGmail(): void {
     const toEmailAddress = 'awards@ghayaeg.com';
     const subject = '';

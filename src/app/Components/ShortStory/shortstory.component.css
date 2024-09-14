@@ -57,7 +57,6 @@ html, body {
   /* Title styling */
   .title-color {
     color: #BA9945;
-    font-family: 'Helvetica', 'Tahoma', sans-serif;
     font-weight: 700;
   }
   
@@ -92,20 +91,7 @@ html, body {
   left: 0; /* Position on the left for LTR */
 }
 
-/* RTL adjustments for the dash */
-[dir="rtl"] .custom-list li {
-  padding-left: 0; /* Remove extra padding in RTL */
-  padding-right: 1.5rem; /* Add padding for dash in RTL */
-}
 
-[dir="rtl"] .custom-list li::before {
-  left: auto; /* Override left positioning in RTL */
-  right: 0; /* Position dash on the right for RTL */
-}
-
-[dir="rtl"] .custom-list {
-  direction: rtl; /* Ensure RTL support */
-}
 .container {
   display: flex;
   align-items: start; /* Aligns items vertically in the center */
@@ -133,35 +119,6 @@ html, body {
 }
 
    
-  /* Responsive design adjustments */
-  @media (max-width: 768px) {
-    .container{
-      width:100%;
-    }
-    .english h1.title-color {
-        font-size: 1.5rem; /* Adjust for small screens */
-    }
-  
-    .english h2.title-color {
-        font-size: 0.8rem; /* Adjust for small screens */
-    }
-  
-    .arabic h1.title-color {
-        font-size: 3rem; /* Adjust for small screens */
-    }
-  
-    .arabic h2.title-color {
-        font-size: 1.5rem; /* Adjust for small screens */
-    }
-  
-    .overlay {
-        padding: 10px; /* Add padding to the overlay for better spacing */
-    }
-  
-    .background-container {
-        height: 40vh; /* Adjust height for smaller screens */
-    }
-  }
   
   /* Animation for scaling the background */
   @keyframes scaleBackground {
@@ -213,6 +170,20 @@ html, body {
   left: -140px; /* Adjust this value as needed */
   width: 150px; /* Adjust line length */
 }
+/* RTL adjustments for the dash */
+[dir="rtl"] .custom-list li {
+  padding-left: 0; /* Remove extra padding in RTL */
+  padding-right: 1.5rem; /* Add padding for dash in RTL */
+}
+
+[dir="rtl"] .custom-list li::before {
+  left: auto; /* Override left positioning in RTL */
+  right: 0; /* Position dash on the right for RTL */
+}
+
+[dir="rtl"] .custom-list {
+  direction: rtl; /* Ensure RTL support */
+}
   @media (max-width: 600px) {
     h2::before,
     h2::after {
@@ -223,6 +194,35 @@ html, body {
     [dir="rtl"] h2::after ,  [dir="rtl"] h2::before{
     
       width: 0%; /* Adjust line length */
+    }
+  }
+   /* Responsive design adjustments */
+   @media (max-width: 768px) {
+    .container{
+      width:100%;
+    }
+    .english h1.title-color {
+        font-size: 1.5rem; /* Adjust for small screens */
+    }
+  
+    .english h2.title-color {
+        font-size: 0.8rem; /* Adjust for small screens */
+    }
+  
+    .arabic h1.title-color {
+        font-size: 3rem; /* Adjust for small screens */
+    }
+  
+    .arabic h2.title-color {
+        font-size: 1.5rem; /* Adjust for small screens */
+    }
+  
+    .overlay {
+        padding: 10px; /* Add padding to the overlay for better spacing */
+    }
+  
+    .background-container {
+        height: 40vh; /* Adjust height for smaller screens */
     }
   }
  
