@@ -105,6 +105,33 @@ html, body {
     right: -160px;
     transform: translateY(-50%);
   }
+
+    
+        /* List styling */
+.custom-list {
+  list-style: none; /* Remove default bullets */
+  padding-left: 0; /* Remove default padding */
+  overflow: hidden; /* Hide any overflowed content */
+ 
+}
+
+.custom-list li {
+  position: relative;
+  padding-left: 1.5rem; /* Adjust based on the bullet size */
+  margin-bottom: 0.5rem; /* Reduce bottom margin for better spacing */
+  opacity: 1; /* Ensure items are visible when shown */
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out; /* Smooth transition for opacity and transform */
+  transform: translateY(0); /* Initial transform */
+}
+
+.custom-list li::before {
+  content: '-'; /* Dash before each item */
+  position: absolute;
+  color: var(--text-color); /* Dash color */
+  font-size: 1rem; /* Dash size */
+  left: 0; /* Position on the left for LTR */
+}
+
 /* RTL adjustments */
 [dir="rtl"] h2::before {
   left: auto;
@@ -117,7 +144,20 @@ html, body {
   left: -140px; /* Adjust this value as needed */
   width: 150px; /* Adjust line length */
 }
+/* RTL adjustments for the dash */
+[dir="rtl"] .custom-list li {
+  padding-left: 0; /* Remove extra padding in RTL */
+  padding-right: 1.5rem; /* Add padding for dash in RTL */
+}
 
+[dir="rtl"] .custom-list li::before {
+  left: auto; /* Override left positioning in RTL */
+  right: 0; /* Position dash on the right for RTL */
+}
+
+[dir="rtl"] .custom-list {
+  direction: rtl; /* Ensure RTL support */
+}
 .video-wrapper {
   position: relative;
   width: 80%; /* Adjust width as needed, e.g., 50% for half width */

@@ -39,8 +39,28 @@
             <a (click)="goToGmail()" class="text-center cursor-pointer h4">
               <i class="fa-solid fa-envelope text-main fa-bounce ms-2 me-2"></i>
               publishing&#64;ghayaeg.com
-          </a>          
-        </div>
+            </a>          
+           </div>
+           <p *ngIf="isArabic" class="fw-bolder h4" [innerHTML]="'GHAYA_PROJECTS.PROJECT1.DETAILS.POINT6' | translate | newlineToBr"></p>
+
+           <ul class="custom-list" *ngIf="isArabic">
+            <li class="lead" [innerHTML]="'GHAYA_PROJECTS.PROJECT1.DETAILS.POINT7' | translate | newlineToBr"></li>
+            <li class="lead" [innerHTML]="'GHAYA_PROJECTS.PROJECT1.DETAILS.POINT8' | translate | newlineToBr"></li>
+            <li class="lead" [innerHTML]="'GHAYA_PROJECTS.PROJECT1.DETAILS.POINT9' | translate | newlineToBr"></li>
+            <li class="lead" [innerHTML]="'GHAYA_PROJECTS.PROJECT1.DETAILS.POINT10' | translate | newlineToBr"></li>
+            <li class="lead" [innerHTML]="'GHAYA_PROJECTS.PROJECT1.DETAILS.POINT11' | translate | newlineToBr"></li>
+            <li class="lead" [innerHTML]="'GHAYA_PROJECTS.PROJECT1.DETAILS.POINT12' | translate | newlineToBr"></li>
+            
+            <div class="row justify-content-top align-items-center">
+
+            
+              <a (click)="goToGmail()" class="text-center cursor-pointer h4">
+                <i class="fa-solid fa-envelope text-main fa-bounce ms-2 me-2"></i>
+                publishing&#64;ghayaeg.com
+              </a>  
+            </div>
+
+            </ul>
       </div>
     </div>
     </div>
