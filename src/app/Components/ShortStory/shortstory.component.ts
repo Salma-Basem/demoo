@@ -23,11 +23,12 @@ export class ShortstoryComponent {
       this.isArabic = this.language === 'ar';
     });
 
-    this.meta.addTag({ property: 'og:title', content: 'القصة القصيرة- دورة يحيى حقي'});
-    this.meta.addTag({ property: 'og:description', content: 'القصة القصيرة هي ابنة المدينة الحديثة، وأحدث فن سردي' });
-    this.meta.addTag({ property: 'og:image', content: 'https://www.ghayaeg.com/assets/Images/yehia.jpg' });
-    this.meta.addTag({ property: 'og:url', content: 'https://www.ghayaeg.com/Awards/ShortStory' });
-   }
+  //   this.meta.addTag({ property: 'og:title', content: 'القصة القصيرة- دورة يحيى حقي'});
+  //   this.meta.addTag({ property: 'og:description', content: 'القصة القصيرة هي ابنة المدينة الحديثة، وأحدث فن سردي' });
+  //   this.meta.addTag({ property: 'og:image', content: 'https://www.ghayaeg.com/assets/Images/yehia.jpg' });
+  //   this.meta.addTag({ property: 'og:url', content: 'https://www.ghayaeg.com/Awards/ShortStory' });
+  //  
+  }
 
   changeLanguage(newLanguage: string) {
     this.languageService.setLanguage(newLanguage);
