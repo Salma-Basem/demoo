@@ -1,4 +1,5 @@
 import { Component, HostBinding } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 import { LanguageService } from 'src/app/Services/language.service';
 
 @Component({
@@ -13,7 +14,7 @@ export class ShortstoryComponent {
     return this.language === 'ar' ? 'rtl' : 'ltr';
   }
 
-  constructor(private languageService: LanguageService) { }
+  constructor(private languageService: LanguageService,private meta: Meta, private title: Title) { }
 
   ngOnInit() {
     // Subscribe to language changes
@@ -21,7 +22,12 @@ export class ShortstoryComponent {
       this.language = language;
       this.isArabic = this.language === 'ar';
     });
-  }
+
+    this.meta.addTag({ property: 'og:title', content: 'القصة القصيرة- دورة يحيى حقي'});
+    this.meta.addTag({ property: 'og:description', content: 'القصة القصيرة هي ابنة المدينة الحديثة، وأحدث فن سردي' });
+    this.meta.addTag({ property: 'og:image', content: 'https://www.ghayaeg.com/assets/Images/yehia.jpg' });
+    this.meta.addTag({ property: 'og:url', content: 'https://www.ghayaeg.com/Awards/ShortStory' });
+   }
 
   changeLanguage(newLanguage: string) {
     this.languageService.setLanguage(newLanguage);

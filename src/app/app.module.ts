@@ -39,7 +39,8 @@ import { SliderComponent } from './Components/Slider/slider.component';
 import { SliderPageComponent } from './Components/SliderPage/slider-page.component';
 import { ContactUsComponent } from './Components/ContactUs/contact-us.component';
 import { FirstPageDetailsComponent } from './Components/first-page-details/first-page-details.component';
-
+import { ServerModule } from '@angular/platform-server';
+import { AppServerModule } from 'server';
 
 
 
@@ -92,6 +93,7 @@ export function HttpLoaderFactory(http: HttpClient): TranslateLoader {
     AppRoutingModule,
     BrowserAnimationsModule,
     CarouselModule, 
+   
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
