@@ -1,6 +1,10 @@
 import { Component, HostBinding } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
+import { ActivatedRoute } from '@angular/router';
+
 import { LanguageService } from 'src/app/Services/language.service';
+import { ShareService } from 'src/app/Services/share.service';
+import { MetaService } from 'src/app/Services/shared/meta.service';
 
 @Component({
   selector: 'app-shortstory',
@@ -14,7 +18,7 @@ export class ShortstoryComponent {
     return this.language === 'ar' ? 'rtl' : 'ltr';
   }
 
-  constructor(private languageService: LanguageService,private meta: Meta, private title: Title) { }
+  constructor(private languageService: LanguageService,private metaService: MetaService, private route: ActivatedRoute) { }
 
   ngOnInit() {
     // Subscribe to language changes
@@ -22,13 +26,22 @@ export class ShortstoryComponent {
       this.language = language;
       this.isArabic = this.language === 'ar';
     });
+    // Use route data to set dynamic meta tags
+    const data = {
+      title: this.route.snapshot.data['title'],
+      type: this.route.snapshot.data['website'], // or another type based on your content
+      url: this.route.snapshot.data['url'], // Get the current URL
+      image: this.route.snapshot.data['image'],
+      description: this.route.snapshot.data['description'],
+      siteName: this.route.snapshot.data['siteName'], // Replace with your site's name
 
-  //   this.meta.addTag({ property: 'og:title', content: 'القصة القصيرة- دورة يحيى حقي'});
-  //   this.meta.addTag({ property: 'og:description', content: 'القصة القصيرة هي ابنة المدينة الحديثة، وأحدث فن سردي' });
-  //   this.meta.addTag({ property: 'og:image', content: 'https://www.ghayaeg.com/assets/Images/yehia.jpg' });
-  //   this.meta.addTag({ property: 'og:url', content: 'https://www.ghayaeg.com/Awards/ShortStory' });
-  //  
+    };
+
+    this.metaService.setMetaTags(data);
   }
+   
+    
+  
 
   changeLanguage(newLanguage: string) {
     this.languageService.setLanguage(newLanguage);

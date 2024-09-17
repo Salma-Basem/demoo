@@ -5,8 +5,8 @@ import { ngExpressEngine } from '@nguniversal/express-engine';
 import * as express from 'express';
 import { existsSync } from 'node:fs';
 import { join } from 'node:path';
-import { AppServerModule } from 'src/app/app.server.module';
-//import { AppServerModule } from './src/main.server';
+//import { AppServerModule } from 'src/app/app.server.module';
+import { AppServerModule } from './src/main.server';
 // server.ts
 
 
