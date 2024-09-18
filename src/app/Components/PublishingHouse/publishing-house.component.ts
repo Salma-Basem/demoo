@@ -37,6 +37,9 @@ export class PublishingHouseComponent {
    
     // );
 
+    // Clear previous meta tags
+    this.metaService.clearMetaTags();
+
     // Use route data to set dynamic meta tags
     const data = {
       title: this.route.snapshot.data['title'],
@@ -44,11 +47,11 @@ export class PublishingHouseComponent {
       url: this.route.snapshot.data['url'], // Get the current URL
       image: this.route.snapshot.data['image'],
       description: this.route.snapshot.data['description'],
-      siteName: this.route.snapshot.data['siteName'], // Replace with your site's name
-
+      siteName: this.route.snapshot.data['siteName'],
     };
 
     this.metaService.setMetaTags(data);
+  
   }
     // Switching Languages 
   changeLanguage(newLanguage: string) {

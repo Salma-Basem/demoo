@@ -8,6 +8,7 @@ export class MetaService {
 
   constructor(private meta: Meta) {}
 
+
   setMetaTags(data: {
     title: string;
     type: string;
@@ -16,14 +17,26 @@ export class MetaService {
     description: string;
     siteName: string;
   }) {
-    this.meta.updateTag({ name: 'title', content: data.title });
-    this.meta.updateTag({ name: 'description', content: data.description });
+    this.meta.addTag({ name: 'title', content: data.title });
+    this.meta.addTag({ name: 'description', content: data.description });
     
-    this.meta.updateTag({ property: 'og:title', content: data.title });
-    this.meta.updateTag({ property: 'og:type', content: data.type });
-    this.meta.updateTag({ property: 'og:url', content: data.url });
-    this.meta.updateTag({ property: 'og:image', content: data.image });
-    this.meta.updateTag({ property: 'og:description', content: data.description });
-    this.meta.updateTag({ property: 'og:site_name', content: data.siteName });
+    this.meta.addTag({ property: 'og:title', content: data.title });
+    this.meta.addTag({ property: 'og:type', content: data.type });
+    this.meta.addTag({ property: 'og:url', content: data.url });
+    this.meta.addTag({ property: 'og:image', content: data.image });
+    this.meta.addTag({ property: 'og:description', content: data.description });
+    this.meta.addTag({ property: 'og:site_name', content: data.siteName });
   }
+
+  clearMetaTags() {
+    this.meta.removeTag("name='title'");
+    this.meta.removeTag("name='description'");
+    this.meta.removeTag("property='og:title'");
+    this.meta.removeTag("property='og:type'");
+    this.meta.removeTag("property='og:url'");
+    this.meta.removeTag("property='og:image'");
+    this.meta.removeTag("property='og:description'");
+    this.meta.removeTag("property='og:site_name'");
+  }
+
 }

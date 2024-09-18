@@ -36,18 +36,25 @@ export class ContentcreationComponent {
     //    "دورة إبراهيم أصلان"
     
     //  );
-    const data = {
-      title: this.route.snapshot.data['title'],
-      type: this.route.snapshot.data['website'], // or another type based on your content
-      url: this.route.snapshot.data['url'], // Get the current URL
-      image: this.route.snapshot.data['image'],
-      description: this.route.snapshot.data['description'],
-      siteName: this.route.snapshot.data['siteName'], // Replace with your site's name
+ // Clear previous meta tags
+ this.metaService.clearMetaTags();
 
-    };
+  // Get data from route
+  const data = this.route.snapshot.data;
 
-    this.metaService.setMetaTags(data);
-  }
+  // Set dynamic meta tags
+  this.metaService.setMetaTags({
+    title: data['title'],
+    type:data['type'],
+    url:data['url'],
+    image: data['image'],
+    description: data['description'],
+   siteName:data['siteName']
+  });
+
+
+
+}
 
   changeLanguage(newLanguage: string) {
     this.languageService.setLanguage(newLanguage);

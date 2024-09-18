@@ -1,11 +1,20 @@
-/* Ensure images are responsive and maintain their size */
+.circle-image-container {
+  width: 400px; /* Set a fixed width */
+  height: 400px; /* Set a fixed height */
+  overflow: hidden; /* Hide overflow to keep the image within bounds */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
 .circle-image-container img {
-    transition: transform 0.3s ease; /* Smooth transition effect */
-  }
-  
-  /* Scaling effect on hover */
-  .circle-image-container img.hover-scale:hover {
-    transform: scale(1.1); /* Scale up the image slightly */
-  }
-  
-  
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+  transition: transform 0.3s; /* Smooth scaling on hover */
+}
+
+.hover-scale:hover {
+  transform: scale(1.05); /* Slightly enlarge the image on hover */
+}

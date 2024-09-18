@@ -36,17 +36,20 @@ export class PhotographyComponent {
     //  "للخيال عيون، وللعيون نافذة على الجنون" ,
     //   "دورة محمد بكر"
     // );
-  // Use route data to set dynamic meta tags
-  const data = {
-    title: this.route.snapshot.data['title'],
-    type: this.route.snapshot.data['website'], // or another type based on your content
-    url: this.route.snapshot.data['url'], // Get the current URL
-    image: this.route.snapshot.data['image'],
-    description: this.route.snapshot.data['description'],
-    siteName: this.route.snapshot.data['siteName'], // Replace with your site's name
+// Clear previous meta tags
+this.metaService.clearMetaTags();
 
-  };
-  this.metaService.setMetaTags(data);
+// Use route data to set dynamic meta tags
+const data = {
+  title: this.route.snapshot.data['title'],
+  type: this.route.snapshot.data['website'], // or another type based on your content
+  url: this.route.snapshot.data['url'], // Get the current URL
+  image: this.route.snapshot.data['image'],
+  description: this.route.snapshot.data['description'],
+  siteName: this.route.snapshot.data['siteName'],
+};
+
+this.metaService.setMetaTags(data);
 }
  
 

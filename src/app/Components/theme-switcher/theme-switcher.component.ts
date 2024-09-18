@@ -44,13 +44,8 @@ export class ThemeSwitcherComponent {
       const scrollPosition = window.scrollY || document.documentElement.scrollTop;
       const firstSection = document.querySelector('#first-section') as HTMLElement;
       const firstSectionHeight = firstSection ? firstSection.clientHeight : 0;
-  
-      console.log('Scroll Position:', scrollPosition);
-      console.log('First Section Height:', firstSectionHeight);
-  
       const isInFirstSection = scrollPosition < firstSectionHeight;
-      console.log('Is in First Section:', isInFirstSection);
-  
+     
       if (this.theme === 'light') {
         this.iconColor = isInFirstSection ? 'text-light' : 'text-black';
       } else {
