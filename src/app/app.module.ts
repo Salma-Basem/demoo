@@ -38,10 +38,18 @@ import { MembersCardComponent } from './Components/MembersCard/members-card.comp
 import { SliderComponent } from './Components/Slider/slider.component';
 import { SliderPageComponent } from './Components/SliderPage/slider-page.component';
 import { ContactUsComponent } from './Components/ContactUs/contact-us.component';
-import { FirstPageDetailsComponent } from './Components/first-page-details/first-page-details.component';
 import { ServerModule } from '@angular/platform-server';
 import { ShareService } from './Services/share.service';
-
+import { TemplateAwardsComponent } from './Components/TemplateAwards/template-awards.component';
+import { TemplateAwards2Component } from './Components/TemplateAwards2/template-awards2.component';
+import { TemplateAwards3Component } from './Components/TemplateAwards3/template-awards3.component';
+import { TemplateAwards4Component } from './Components/TemplateAwards4/template-awards4.component';
+import { TemplateAwards5Component } from './Components/TemplateAwards5/template-awards5.component';
+import { TemplateProjectsComponent } from './Components/TemplateProjects/template-projects.component';
+import { TemplateProjects2Component } from './Components/TemplateProjects2/template-projects2.component';
+import { TemplateProjects3Component } from './Components/TemplateProjects3/template-projects3.component';
+import { TemplateProjects4Component } from './Components/TemplateProjects4/template-projects4.component';
+import { TemplateProjects5Component } from './Components/TemplateProjects5/template-projects5.component';
 
 
 export function HttpLoaderFactory(http: HttpClient): TranslateLoader {
@@ -77,7 +85,19 @@ export function HttpLoaderFactory(http: HttpClient): TranslateLoader {
        SliderComponent,
        SliderPageComponent,
        ContactUsComponent,
-       FirstPageDetailsComponent,
+      TemplateAwardsComponent,
+      TemplateAwards2Component,
+      TemplateAwards3Component,
+      TemplateAwards4Component,
+      TemplateAwards5Component,
+      TemplateProjectsComponent,
+      TemplateProjects2Component,
+      TemplateProjects3Component,
+      TemplateProjects4Component,
+      TemplateProjects5Component,
+
+       
+       
        
 
       

@@ -17,6 +17,15 @@ import { MobileAppComponent } from './Components/MobileApp/mobile-app.component'
 import { EventsComponent } from './Components/EventsProjects/events.component';
 import { SliderPageComponent } from './Components/SliderPage/slider-page.component';
 import { ContactUsComponent } from './Components/ContactUs/contact-us.component';
+import { TemplateAwardsComponent } from './Components/TemplateAwards/template-awards.component';
+import { TemplateAwards2Component } from './Components/TemplateAwards2/template-awards2.component';
+import { TemplateAwards3Component } from './Components/TemplateAwards3/template-awards3.component';
+import { TemplateAwards4Component } from './Components/TemplateAwards4/template-awards4.component';
+import { TemplateAwards5Component } from './Components/TemplateAwards5/template-awards5.component';
+import { TemplateProjectsComponent } from './Components/TemplateProjects/template-projects.component';
+import { TemplateProjects2Component } from './Components/TemplateProjects2/template-projects2.component';
+import { TemplateProjects4Component } from './Components/TemplateProjects4/template-projects4.component';
+import { TemplateProjects3Component } from './Components/TemplateProjects3/template-projects3.component';
 
 
 
@@ -79,8 +88,8 @@ const routes: Routes = [
     
     }
   },
-  { path: 'Projects/Academy',component:AcademyComponent,data:{
-    
+  { path: 'Projects/Academy',component:AcademyComponent,
+    data:{
     title:  "Academy Project -  الأكاديمية" ,
     type:  "website",
     url:  "https://www.ghayaeg.com/Projects/Academy" ,
@@ -94,8 +103,17 @@ const routes: Routes = [
   { path: 'AboutUs/BoardMembers', component: BoardmembersComponent },
   { path: 'AboutUs/PolicyAndGoals', component: PolicyComponent },
   { path: 'AboutUs/Team', component: TeamComponent },
-  { path: 'AboutUs/Authors', component: AuthorsComponent },
- 
+  { path: 'AboutUs/Authors', component: AuthorsComponent }, 
+  { path: 'Awards/Template1Name',component:TemplateAwardsComponent},
+  { path: 'Awards/Template2Name',component:TemplateAwards2Component},
+  { path: 'Awards/Template3Name',component:TemplateAwards3Component},
+  { path: 'Awards/Template4Name',component:TemplateAwards4Component},
+  { path: 'Awards/Template5Name',component:TemplateAwards5Component},
+  { path: 'Projects/Template1Name',component:TemplateProjectsComponent},
+  { path: 'Projects/Template2Name',component:TemplateProjects2Component},
+  { path: 'Projects/Template3Name',component:TemplateProjects3Component},
+  { path: 'Projects/Template4Name',component:TemplateProjects4Component},
+  { path: 'Projects/Template5Name',component:TemplateAwards5Component},
   { path: '**', redirectTo: '', pathMatch: 'full' }  // Redirect to Home on unknown routes
 ];
 

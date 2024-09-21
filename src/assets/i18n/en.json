@@ -40,129 +40,33 @@
       "PUBLISHING_HOUSE":"Publishing House",
       "PRODUCTION":"Production & Content Creation",
       "ACADEMY":"Academy",
-      "EVENTS":"Events & Partnerships"
+      "EVENTS":"Events & Partnerships",
+      "TEMPLATE1":"NAME",
+      "TEMPLATE2":"NAME",
+      "TEMPLATE3":"NAME",
+      "TEMPLATE4":"NAME",
+      "TEMPLATE5":"NAME"
+
     },
     "AWARDS":{
       "AWARDS":"Awards",
-      "BRIEF":"Brief",
       "SHORT_STORY":"Short Story",
       "PHOTOGRAPHY":"Photography",
-      "CONTENT_CREATION": "Content Creation"
+      "CONTENT_CREATION": "Content Creation",
+      "TEMPLATE1":"NAME",
+      "TEMPLATE2":"NAME",
+      "TEMPLATE3":"NAME",
+      "TEMPLATE4":"NAME",
+      "TEMPLATE5":"NAME"
+
+
     }
   },
   "ADDRESS":"4 Takseem Al Togareen - 9 street - front of CIB Bank - Al Mokattam - Cairo",
   "CONTACT_US":"Contact Us",
   "FOUNDERS":"Meet Our Founders",
-  "FOUNDER_INFO": {
-    "NAME":"Morad Maher",
-    "TITLE":"CEO-Founder",
-    "GHAYA_FOUNDATION": "Founder and Chairman of the Board of Ghaya Foundation for Creativity.",
-    "BEYOND_VISION": "Founder and Chairman of Beyond Vision Company Consulting and Digital Content Production in the United Arab Emirates.",
-    "EDUCATION": "Graduate of the Military Technical College.",
-    "UNION_MEMBERSHIPS": {
-      "WRITERS_UNION": "Member of the Union of Egyptian and Arab Writers.",
-      "PUBLISHERS_UNION": "Member of the Publishers’ Union.",
-      "ENGINEERS_SYNDICATE": "Member of the Engineers’ Syndicate.",
-      "VETERANS_ASSOCIATION": "Member of the Veterans’ Association."
-    },
-    "HONORS": {
-      "HONORARY_DOCTORATE": "Awarded an Honorary Doctorate from the International Academy for Development and Scientific Research.",
-      "PEACE_AMBASSADOR": "Certified Peace and Goodwill Ambassador from the Belgian Global Association for Humanity, Creativity, and International Peace (affiliated with the European Union).",
-      "MILITARY_MEDAL": "Awarded the Second-Class Duty Medal during previous service in the Egyptian Armed Forces.",
-      "GOLD_RESIDENCE": "Holder of the Gold Residence Permit for Creators and Thinkers in the United Arab Emirates."
-    },
-    "STUDIES": "-Studied at Nasser Military Academy (National Security Strategy, Crisis Management, Decision-Making, etc.)."
-  },
-  "VICE_CEO":{
-    "NAME":"Amal Rabie",
-    "TITLE": "Vice CEO- General Supervisor",
-    "BIO": "Founder and Director of the HOPE HUB Creative Academy for Training Children and Youth.\n \nFormerly, the Cultural Activities Officer at the Cultural Development Fund, Ministry of Culture. Founder and Editor-in-Chief of the Dama Electronic Platform for Feminist Writing.",
-    "EDUCATION": "Bachelor's Degree in Arts from Cairo University.",
-    "POSTGRADUATE_STUDIES": "Postgraduate Studies in Literary Criticism.",
-    "DOCTORATE": "PhD in Business Administration from the Faculty of Science and Administration."
-  },
   "READ_MORE":"Read More",
-  "READ_LESS":"Read Less",
-  "MEMBERS":
-  {
-    "MEMBER1": {
-      "NAME":"Mostafa El-Farmawy",
-      "SLIDER_NAME": "Mostafa El-Farmawy",
-      "SLIDER_ROLE": "Member of the Board of Directors - Marketing & Library Consultant",
-      "ROLE": "Member of the Board of Directors and Marketing and Library Consultant.",
-      "QUALIFICATION": "Bachelor's Degree in Media from Cairo University.",
-      "CURRENT_JOB": "General Manager of Marketing Studies at the Egyptian General Book Organization.",
-"PREVIOUS_EXPERIENCE": {
-  "EXPERIENCE_1": "Worked at Dar El-Shorouk in its first branch, El-Shorouk Library in Talaat Harb Square, from 1989 until 1991.",
-  "EXPERIENCE_2": "Participated in founding Al-Obeikan Library in Riyadh, Saudi Arabia, and worked there until 1997.",
-  "EXPERIENCE_3": "Worked as Sales and Distribution Manager at Dar Al-Thakafa Publishing and Distribution from 1997 until 1999.",
-  "EXPERIENCE_4": "Worked as Sales Manager at Dar Sotoor Publishing and Distribution from 1999 to 2001.",
-  "EXPERIENCE_5": "Returned to Dar El-Shorouk as Manager of El-Shorouk Library at First Mall from 2001 until 2005.",
-  "EXPERIENCE_6": "Worked as Manager of Supply for El-Shorouk Libraries.",
-  "EXPERIENCE_7": "Part of the team responsible for establishing and opening the El-Shorouk Library chain from 2006, training new staff and preparing new branches until reaching 13 branches, in addition to responsibility for supply and follow-up until 2017.",
-  "EXPERIENCE_8": "Worked as Marketing Manager at Dar El-Shorouk from 2017 until the end of 2021.",
-  "EXPERIENCE_9": "Over 28 years of experience in the book industry, including supply, marketing, and sales through libraries and online sales recently.",
-  "EXPERIENCE_10": "Managed and trained library staff or salespersons on sales techniques and how to deal with books and readers.",
-  "EXPERIENCE_11": "Good understanding of the book market and its needs through continuous exposure to both internal and external markets.",
-  "EXPERIENCE_12": "Maintains good relations with publishers and those interested in the book industry in Egypt and the Arab world.",
-  "EXPERIENCE_13": "Received recognition on several occasions through various events held over the past years."
-}    },
-    "MEMBER2": {
-      "NAME": "Dr. Haytham Alhaj Aly",
-      "SLIDER_ROLE": "Member of the Board of Directors - Technical Advisor",
-      "ROLE": "Member of the Board of Directors and Technical Advisor.",
-      "JOB": "Egyptian Critic and Academic Specializing in Modern Arabic Literature.",
-      "TITLE": "Assistant Professor of Modern Arabic Literature and Literary Criticism at Helwan University.",
-      "INTERESTS": "Focuses on Arabic narrative studies and its critical methodologies.",
-      "POSITIONS": "Held several cultural executive positions including Secretary General of the Supreme Council of Culture, President of the Egyptian General Book Organization, Chairman of the Cairo International Book Fair, and Chairman of the Cairo Newspaper Board published by the Egyptian Ministry of Culture.",
-      "HONORS": "Received an honorary professorship from Ningxia University, China.",
-      "PUBLICATIONS": "Author of several works including 'Experimentation in Short Stories', 'Qualitative Time and Narrative Genre Issues', and the translation of Roger Bromley's 'Forgotten Narrative Texts'.",
-      "ACADEMIC_WORK": "Published numerous academic papers on Arabic narratives and participated in international conferences on culture, literature, and narrative.",
-      "POETRY": "Poet with two published collections: 'Pain That Surprises Time' and 'A Space That Shelters Its Owner'.",
-      "WEEKLY_ARTICLE": "Writes a weekly article in Youm7 newspaper focusing on identity, culture, and its activation."
-    },
-    "MEMBER3": {
-      "NAME": "Emad Al Adly",
-      "SLIDER_ROLE": "Member of the Board of Directors - Publishing Director",
-      "ROLE": "Member of the Board of Directors and Publishing Director.",
-"QUALIFICATIONS": {
-  "BACHELOR_OF_ARTS_PHILOSOPHY": "Bachelor's degree in Arts, Department of Philosophical Studies from Ain Shams University.",
-  "BACHELOR_OF_LAW": "Bachelor's degree in Law from Ain Shams University.",
-  "LICENSE_ISLAMIC_THOUGHT": "License in Islamic Thought from the Institute of Islamic Studies."
-},
-"WORK_EXPERIENCE": {
-  "ROLE_1": "Former Cultural Advisor and Event Manager at Institution (A) from 2009 to 2019.",
-  "ROLE_2": "Current Cultural Advisor to the General Syndicate of Physicians of Egypt since 2022.",
-  "ROLE_3": "Director of the Hikma Cultural Salon.",
-  "ROLE_4": "Co-founder and Managing Editor of the Literary Agency for Editing and Publishing Services.",
-  "ROLE_5": "Former Editorial Consultant for several Egyptian publishing houses (Dawn/Toya/Al-Hala/Kayan) from 2019 to 2023."
-},
-      "ACTIVITIES": "Founder of the Philosophical Corridor in Egyptian governorates (a non-profit philosophical enlightenment activity).\nLecturer in philosophy and region at the Alexandria Library and the New Egypt Association.",
-"PUBLICATIONS": {
-  "PUBLICATION_1": "Tales of the Book Guardian (Dawn Publishing).",
-  "PUBLICATION_2": "The Agenda (Al-Hala Publishing).",
-  "PUBLICATION_3": "People of Reading and Writing (Lyan Publishing) Co-author.",
-  "PUBLICATION_4": "Tales of Dunia Zad (Stories in Publication).",
-  "PUBLICATION_5": "So That the Coffee Does Not Boil Over (A book on simplifying philosophy under publication)."
-}
-    },
-    "MEMBER4":  {
-      "NAME": "Dr. Nancy Ibrahim - Egypt",
-      "SLIDER_NAME": "Dr. Nancy Ibrahim",
-      "ROLE":"Member of the Board of Directors ",
-      "DEGREES": "PhD in Arts with First-Class Honors from the Faculty of Arts, Ain Shams University, Department of Arabic Language and Literature, with a thesis titled 'Intertextual Relations Between Critical Heritage and Poetic Creativity'.\nMaster's degree in Arts with Excellent Distinction from the Faculty of Arts, Ain Shams University, Department of Arabic Language and Literature, with a thesis titled 'Building Paradox in Arabic Rhetoric'.\nBachelor’s degree in Arts from the Faculty of Arts, Ain Shams University with an overall grade of 'Very Good'.",
-"MEMBERSHIPS": {
-  "MEMBERSHIP_1": "Member of the Supreme Council of Culture in Egypt, Committee on Literary, Critical, and Linguistic Studies.",
-  "MEMBERSHIP_2": "Member of the Union of Arab Writers and Media Professionals in Europe - ZARA Center for Studies and Research, Paris.",
-  "MEMBERSHIP_3": "Member of the Arab Council for Social Responsibility and Sustainable Development at the Arab-African Forum for Training and Development (Cultural Committee).",
-  "MEMBERSHIP_4": "Member of the Egyptian Association for Narrative Studies.",
-  "MEMBERSHIP_5": "Member of the Egyptian Association for Literary Criticism.",
-  "MEMBERSHIP_6": "Member of the Scientific Advisory Committee of the journal 'Maqamat' affiliated with the Ministry of Education and Scientific Research - University Center of Aflou, Algeria."
-},
-"CONFERENCES": "Participated in various scientific conferences and cultural forums, including:\n1. Al-Babtain Arab Poetry Course in Kuwait, 2022\n 2. Algiers Book Fair on Digital Novels, 2022\n 3. Riyadh International Book Fair 'Aesthetics of Place in Arabic Novels', 2021\n 4. Arab Poetry Forum in Sharjah on Intertextuality in Arabic Poetry, 2018\n 5. Souq Okaz with a research paper titled 'Emotional Trends in Arabic Song Poetry', 2018\n 6. Representations of Jewish Characters in Contemporary Arabic Novels, Jordan 2021\n 7. Global Forum on Higher Education and Scientific Research: Present and Future, Cairo 2019\n 8. Cairo International Book Fair in all its sessions from 2010 to 2023\n 9. Many Arab book fairs including Riyadh International Book Fair, Sharjah, Casablanca, Algiers, Tunis, Amman, and Beirut.",
-"JUDGING": "Judged various scientific journals and Arab awards, including:\"Katara Prize for Fiction, 2017\",\"  Yusuf Idris Prize for Short Stories, Paris 2021\",\"  Cairo University Prize for Poetry, 2023\" ",
-"PUBLICATIONS": "Has many articles in prominent Arab newspapers and magazines, including:\" Al-Ahram Newspaper\" , \"Al-Riyadh\" ,\" Al-Hayat\",\"  Alam al-Kitab\",\"  Al-Yamamah Magazine\", \" Al-Hilal Magazine\" "    }
-  }
+  "READ_LESS":"Read Less"
   ,
   "PHONE":"+2 250 55501",
   "OUR_POLICY":"Our Policy",
@@ -299,8 +203,7 @@
           "POINT12":"Manuscripts should be sent to the following email address: "
   
                   
-      }
-      
+      } 
     },
     "PROJECT2":{
       "NAME": "Ghaya Foundation for Creativity and Content Creation ",
@@ -320,6 +223,99 @@
           "POINT13": "Social media platforms",
           "POINT14": "And more..."
       }
+    },
+    "TEMPLATE1":{
+      "NAME":"PROJECT NAME",
+      "DETAILS":{
+            "POINT1": "CONTEXT",
+            "POINT2": "CONTEXT",
+            "POINT3": "CONTEXT",
+            "POINT4": "CONTEXT",
+            "POINT5": "CONTEXT",
+            "POINT6":"CONTEXT",
+            "POINT7":"CONTEXT",
+            "POINT8":"CONTEXT",
+            "POINT9":"CONTEXT",
+            "POINT10":"CONTEXT",
+            "POINT11":"CONTEXT",
+            "POINT12":"CONTEXT"   
+        }
+    }, 
+    "TEMPLATE2":{
+      "NAME":"PROJECT NAME",
+      "DETAILS":{
+            "POINT1": "CONTEXT",
+            "POINT2": "CONTEXT",
+            "POINT3": "CONTEXT",
+            "POINT4": "CONTEXT",
+            "POINT5": "CONTEXT",
+            "POINT6":"CONTEXT",
+            "POINT7":"CONTEXT",
+            "POINT8":"CONTEXT",
+            "POINT9":"CONTEXT",
+            "POINT10":"CONTEXT",
+            "POINT11":"CONTEXT",
+            "POINT12":"CONTEXT"
+    
+                    
+        }
+    },
+    "TEMPLATE3":{
+      "NAME":"PROJECT NAME",
+      "DETAILS":{
+            "POINT1": "CONTEXT",
+            "POINT2": "CONTEXT",
+            "POINT3": "CONTEXT",
+            "POINT4": "CONTEXT",
+            "POINT5": "CONTEXT",
+            "POINT6":"CONTEXT",
+            "POINT7":"CONTEXT",
+            "POINT8":"CONTEXT",
+            "POINT9":"CONTEXT",
+            "POINT10":"CONTEXT",
+            "POINT11":"CONTEXT",
+            "POINT12":"CONTEXT"
+    
+                    
+        }
+    },
+    "TEMPLATE4":{
+      "NAME":"PROJECT NAME",
+      "DETAILS":{
+            "POINT1": "CONTEXT",
+            "POINT2": "CONTEXT",
+            "POINT3": "CONTEXT",
+            "POINT4": "CONTEXT",
+            "POINT5": "CONTEXT",
+            "POINT6":"CONTEXT",
+            "POINT7":"CONTEXT",
+            "POINT8":"CONTEXT",
+            "POINT9":"CONTEXT",
+            "POINT10":"CONTEXT",
+            "POINT11":"CONTEXT",
+            "POINT12":"CONTEXT"
+    
+                    
+        }
+    },
+    "TEMPLATE5":{
+      "NAME":"PROJECT NAME",
+      "DETAILS":{
+            "POINT1": "CONTEXT",
+            "POINT2": "CONTEXT",
+            "POINT3": "CONTEXT",
+            "POINT4": "CONTEXT",
+            "POINT5": "CONTEXT",
+            "POINT6":"CONTEXT",
+            "POINT7":"CONTEXT",
+            "POINT8":"CONTEXT",
+            "POINT9":"CONTEXT",
+            "POINT10":"CONTEXT",
+            "POINT11":"CONTEXT",
+            "POINT12":"CONTEXT"
+    
+                    
+        }
     }
   },
   "GHAYA_ACADEMY": {
@@ -335,47 +331,38 @@
       "POINT9": "Graduates receive creative diploma certificates that are accredited by several local, regional, and international bodies."   
      }
   },
-    "GHAYA_AWARDS": {
-      "NAME": "Ghaya Creative Competitions and Prizes ",
-      "DETAILS": {
-        "POINT1": "In our attempt to open a new and serious window to shed light on creative individuals and discover those hidden among them amidst the multitude of details and complexities associated with selection and marketing processes and guiding the overall mood of the public.",
-        "POINT2": "Starting from its launch ceremony, Ghaya will begin announcing its creative awards in the following areas, taking into account the selection of these dates for each award:" ,
-       "POINT3": "Applications opening date: 12-9-2024",
-        "POINT4": "Applications closing date: 12-11-2024",
-        "POINT5": "Announcement of the shortlist: 12-1-2025",
-        "POINT6": "Announcement of winners: 25-1-2025"
-      },
+ "GHAYA_AWARDS": {
       "AWARD1": {
-    "NAME": "Arab Award in Short Story",
-    "EDITION":"Yahya Haqqi’s Edition",
-    "DETAILS": {
-      "POINT1": "The short story is the product of the modern city, and the most recent narrative form. If it were destined to talk, it would complain of the pain of abandonment and the specifications of the market, after it was limited to remaining on the bench.",
-      "POINT2": "Over 100 years of Arabic narrative creativity where the Arabic short story has contributed to creating new forms that have impacted on the global narrative scene.",
-      "POINT3": "Greetings to its pioneers, “Taymour, Idris, Kanafani, and Haqqi”.",
-      "POINT4": "Greetings to all its fans, and to all those who remained loyal to it.",
-      "POINT5": "Today, Ghaya Foundation for Creativity announces the launch of its inaugural award in the field of short stories, bearing the name of one of its figures: the great creative writer Yahya Haqqi.",
-      "POINT6": "This is out of love and appreciation for the short story, its advancement, and encouragement for its innovators.",
-      "POINT7": "Prize value is worth 100 thousand Egyptian pounds.",
-      "POINT8": "In line with its vision to advance Arab creativity, discover new talents, and support creators, the Ghaya Foundation for Creativity is launching its first short story competition (Yahya Haqqi Edition) in September 2024.",
-      "POINT9": "Conditions:",
-      "POINT10": "The number of words in the short story collection submitted to the competition must not be less than 10,000 words.",
-      "POINT11": "The writing should be in correct Arabic, but local dialects are allowed when necessary for literary purposes.",
-      "POINT12": "Previous publication of works by the applicant is not required.",
-      "POINT13": "The applicant must be at least 18 years old.",
-      "POINT14": "Only one work may be submitted.",
-      "POINT15": "The work submitted for the award should not have been nominated for another award, whether directly or indirectly, in the same year.",
-      "POINT16": "The competition is open to anyone writing in Arabic, without requiring a specific nationality.",
-      "POINT17": "Submission should be made by sending the applicant CV and two copies of the literary work; one in Word format and one in PDF format,in an email titled 'Short Story Award' to: ",
-      "POINT18": "Prize:",
-      "POINT19": "A panel of specialized judges will select one winner from the applicants. The winner will receive a cash prize of 100,000 pounds, in addition to a 'Ghaya' trophy, a certificate of appreciation from the foundation, and the publication and distribution of the short story collection.",
-      "POINT20": "The winner will receive the prize at a special award ceremony held concurrently with the Cairo International Book Fair 2025, in the presence of the Foundation’s Awards Board chaired by Chairman Murad Maher. If the winner is located outside Egypt, the cash prize will be transferred to their bank account and the trophy will be shipped to their location.",
-      "POINT21": "Important Dates:",
-      "POINT22": "Submission Open: 12-9-2024",
-      "POINT23": "Submission Deadline: 12-11-2024",
-     "POINT24": "Shortlist Announcement: 12-1-2025",
-     "POINT25": "Winners Announcement: 25-1-2025",
-     "EMAIL":"awards@ghayaeg.com"
-    },
+          "NAME": "Arab Award in Short Story",
+          "EDITION":"Yahya Haqqi’s Edition",
+          "DETAILS": {
+            "POINT1": "The short story is the product of the modern city, and the most recent narrative form. If it were destined to talk, it would complain of the pain of abandonment and the specifications of the market, after it was limited to remaining on the bench.",
+            "POINT2": "Over 100 years of Arabic narrative creativity where the Arabic short story has contributed to creating new forms that have impacted on the global narrative scene.",
+            "POINT3": "Greetings to its pioneers, “Taymour, Idris, Kanafani, and Haqqi”.",
+            "POINT4": "Greetings to all its fans, and to all those who remained loyal to it.",
+            "POINT5": "Today, Ghaya Foundation for Creativity announces the launch of its inaugural award in the field of short stories, bearing the name of one of its figures: the great creative writer Yahya Haqqi.",
+            "POINT6": "This is out of love and appreciation for the short story, its advancement, and encouragement for its innovators.",
+            "POINT7": "Prize value is worth 100 thousand Egyptian pounds.",
+            "POINT8": "In line with its vision to advance Arab creativity, discover new talents, and support creators, the Ghaya Foundation for Creativity is launching its first short story competition (Yahya Haqqi Edition) in September 2024.",
+            "POINT9": "Conditions:",
+            "POINT10": "The number of words in the short story collection submitted to the competition must not be less than 10,000 words.",
+            "POINT11": "The writing should be in correct Arabic, but local dialects are allowed when necessary for literary purposes.",
+            "POINT12": "Previous publication of works by the applicant is not required.",
+            "POINT13": "The applicant must be at least 18 years old.",
+            "POINT14": "Only one work may be submitted.",
+            "POINT15": "The work submitted for the award should not have been nominated for another award, whether directly or indirectly, in the same year.",
+            "POINT16": "The competition is open to anyone writing in Arabic, without requiring a specific nationality.",
+            "POINT17": "Submission should be made by sending the applicant CV and two copies of the literary work; one in Word format and one in PDF format,in an email titled 'Short Story Award' to: ",
+            "POINT18": "Prize:",
+            "POINT19": "A panel of specialized judges will select one winner from the applicants. The winner will receive a cash prize of 100,000 pounds, in addition to a 'Ghaya' trophy, a certificate of appreciation from the foundation, and the publication and distribution of the short story collection.",
+            "POINT20": "The winner will receive the prize at a special award ceremony held concurrently with the Cairo International Book Fair 2025, in the presence of the Foundation’s Awards Board chaired by Chairman Murad Maher. If the winner is located outside Egypt, the cash prize will be transferred to their bank account and the trophy will be shipped to their location.",
+            "POINT21": "Important Dates:",
+            "POINT22": "Submission Open: 12-9-2024",
+            "POINT23": "Submission Deadline: 12-11-2024",
+            "POINT24": "Shortlist Announcement: 12-1-2025",
+            "POINT25": "Winners Announcement: 25-1-2025",
+            "EMAIL":"awards@ghayaeg.com"
+          },
       "PHOTO_NAME":"Yahya Haqqi"
       },
       "AWARD2": {
@@ -417,38 +404,196 @@
         "EDITION":"Ibrahim Aslan Edition",
         "PHOTO_NAME":"Ibrahim Aslan",
         "DETAILS": {
-"POINT0": "And we start it with reading.",
-  "POINT1": "To those who are passionate about books, interested in creating content, and can express their ideas in an attractive and enjoyable manner in the era of multiple platforms and many display methods, we seek visual reviews that combine creativity, impact, innovation, and excitement for some of the works of the great writer Ibrahim Aslan.",
-            "POINT2": "It is a literary challenge aimed at fostering a passion for reading and interacting with texts written through a contemporary medium.",
+          "POINT0": "And we start it with reading.",
+          "POINT1": "To those who are passionate about books, interested in creating content, and can express their ideas in an attractive and enjoyable manner in the era of multiple platforms and many display methods, we seek visual reviews that combine creativity, impact, innovation, and excitement for some of the works of the great writer Ibrahim Aslan.",
+          "POINT2": "It is a literary challenge aimed at fostering a passion for reading and interacting with texts written through a contemporary medium.",
           "POINT3": "Our goal is to excel in the world of book reviews, and to present new voices in the world of literature.",
           "POINT4": "The total value of the prizes is worth up to 50 thousand pounds. ",
           "POINT5": "Details, conditions, and application procedures are available on the institution's website and social media accounts.",
           "POINT6": "Conditions:",
-  "POINT8": "The video must be at least 3 minutes long.",
-  "POINT9": "The video must not be published on any website or social media account.",
-  "POINT10": "The presentation should be of one of the creative works of the renowned writer Ibrahim Aslan.",
-  "POINT11": "The video must be in Arabic.",
-  "POINT12": "The applicant must be at least 18 years old.",
-  "POINT13": "The competition is open to anyone who speaks fluent Arabic, regardless of nationality.",
-  "POINT14": "Submissions should be made by sending the video as a standalone file to the email:",
-  "POINT15": "Prizes:",
-  "POINT16": "A panel of two judges will select three winners from  the applicants to be honored as follows:",
-  "POINT17": "First Prize: A cash award of 25,000 EGP, plus a 'Ghaya' trophy and a certificate of appreciation from the foundation.",
-  "POINT18": "Second Prize: A cash award of 15,000 EGP, plus a 'Ghaya' trophy and a certificate of appreciation from the foundation.",
-  "POINT19": "Third Prize: A cash award of 10,000 EGP, plus a 'Ghaya' trophy and a certificate of appreciation from the foundation.",
-  "POINT20": "Winners will receive their prizes at a special ceremony held in conjunction with the Cairo International Book Fair 2025, in the presence of the foundation's Awards Board chaired by Chairman Morad Maher. If a winner is outside Egypt, the cash prize will be transferred to their bank account and the trophy will be shipped to them. One of the three winners will also be contracted to present a program on the foundation’s platform.",
-  "POINT21": "Important Dates:",
-  "POINT22": "Submission Open: 12-9-2024",
-  "POINT23": "Submission Deadline: 12-11-2024",
-  "POINT24": "Shortlist Announcement: 12-1-2025",
-  "POINT25": "Winners Announcement: 25-1-2025",
-  "POINT26": "Correspondence and Submission:"
+          "POINT8": "The video must be at least 3 minutes long.",
+          "POINT9": "The video must not be published on any website or social media account.",
+          "POINT10": "The presentation should be of one of the creative works of the renowned writer Ibrahim Aslan.",
+          "POINT11": "The video must be in Arabic.",
+          "POINT12": "The applicant must be at least 18 years old.",
+          "POINT13": "The competition is open to anyone who speaks fluent Arabic, regardless of nationality.",
+          "POINT14": "Submissions should be made by sending the video as a standalone file to the email:",
+          "POINT15": "Prizes:",
+          "POINT16": "A panel of two judges will select three winners from  the applicants to be honored as follows:",
+          "POINT17": "First Prize: A cash award of 25,000 EGP, plus a 'Ghaya' trophy and a certificate of appreciation from the foundation.",
+          "POINT18": "Second Prize: A cash award of 15,000 EGP, plus a 'Ghaya' trophy and a certificate of appreciation from the foundation.",
+          "POINT19": "Third Prize: A cash award of 10,000 EGP, plus a 'Ghaya' trophy and a certificate of appreciation from the foundation.",
+          "POINT20": "Winners will receive their prizes at a special ceremony held in conjunction with the Cairo International Book Fair 2025, in the presence of the foundation's Awards Board chaired by Chairman Morad Maher. If a winner is outside Egypt, the cash prize will be transferred to their bank account and the trophy will be shipped to them. One of the three winners will also be contracted to present a program on the foundation’s platform.",
+          "POINT21": "Important Dates:",
+          "POINT22": "Submission Open: 12-9-2024",
+          "POINT23": "Submission Deadline: 12-11-2024",
+          "POINT24": "Shortlist Announcement: 12-1-2025",
+          "POINT25": "Winners Announcement: 25-1-2025",
+          "POINT26": "Correspondence and Submission:"
+        }
+      },
+      "AWARD4":{
+        "NAME": "Award Name",
+        "EDITION":" Edition Name",
+        "PHOTO_NAME":"Photo Name",
+        "DETAILS": {
+          "POINT0": " DESCRIPTION 0",
+          "POINT1": " DESCRIPTION 1",
+          "POINT2": " DESCRIPTION 2",
+          "POINT3": " DESCRIPTION 3",
+          "POINT4": " DESCRIPTION 4",
+          "POINT5": " DESCRIPTION 5",
+          "POINT6": " DESCRIPTION 6",
+          "POINT7": " DESCRIPTION 7",
+          "POINT8": " DESCRIPTION 8",
+          "POINT9": " DESCRIPTION 9",
+          "POINT10": " DESCRIPTION 10",
+          "POINT11": " DESCRIPTION 11",
+          "POINT12": " DESCRIPTION 12"
+
         }
       }
+      ,
+      "AWARD5":{
+        "NAME": "Award Name",
+        "EDITION":" Edition Name",
+        "PHOTO_NAME":"Photo Name",
+        "DETAILS": {
+          "POINT0": " DESCRIPTION 0",
+          "POINT1": " DESCRIPTION 1",
+          "POINT2": " DESCRIPTION 2",
+          "POINT3": " DESCRIPTION 3",
+          "POINT4": " DESCRIPTION 4",
+          "POINT5": " DESCRIPTION 5",
+          "POINT6": " DESCRIPTION 6",
+          "POINT7": " DESCRIPTION 7",
+          "POINT8": " DESCRIPTION 8",
+          "POINT9": " DESCRIPTION 9",
+          "POINT10": " DESCRIPTION 10",
+          "POINT11": " DESCRIPTION 11",
+          "POINT12": " DESCRIPTION 12"
 
 
-    
+
+        }
+      },
+      "AWARD6":{
+        "NAME": "Award Name",
+        "EDITION":" Edition Name",
+        "PHOTO_NAME":"Photo Name",
+        "DETAILS": {
+          "POINT0": " DESCRIPTION 0",
+          "POINT1": " DESCRIPTION 1",
+          "POINT2": " DESCRIPTION 2",
+          "POINT3": " DESCRIPTION 3",
+          "POINT4": " DESCRIPTION 4",
+          "POINT5": " DESCRIPTION 5",
+          "POINT6": " DESCRIPTION 6",
+          "POINT7": " DESCRIPTION 7",
+          "POINT8": " DESCRIPTION 8",
+          "POINT9": " DESCRIPTION 9",
+          "POINT10": " DESCRIPTION 10",
+          "POINT11": " DESCRIPTION 11",
+          "POINT12": " DESCRIPTION 12"
+
+
+
+        }
+      },
+      "AWARD7":{
+        "NAME": "Award Name",
+        "EDITION":" Edition Name",
+        "PHOTO_NAME":"Photo Name",
+        "DETAILS": {
+          "POINT0": " DESCRIPTION 0",
+          "POINT1": " DESCRIPTION 1",
+          "POINT2": " DESCRIPTION 2",
+          "POINT3": " DESCRIPTION 3",
+          "POINT4": " DESCRIPTION 4",
+          "POINT5": " DESCRIPTION 5",
+          "POINT6": " DESCRIPTION 6",
+          "POINT7": " DESCRIPTION 7",
+          "POINT8": " DESCRIPTION 8",
+          "POINT9": " DESCRIPTION 9",
+          "POINT10": " DESCRIPTION 10",
+          "POINT11": " DESCRIPTION 11",
+          "POINT12": " DESCRIPTION 12"
+
+
+
+        }
+      },
+      "AWARD8":{
+        "NAME": "Award Name",
+        "EDITION":" Edition Name",
+        "PHOTO_NAME":"Photo Name",
+        "DETAILS": {
+          "POINT0": " DESCRIPTION 0",
+          "POINT1": " DESCRIPTION 1",
+          "POINT2": " DESCRIPTION 2",
+          "POINT3": " DESCRIPTION 3",
+          "POINT4": " DESCRIPTION 4",
+          "POINT5": " DESCRIPTION 5",
+          "POINT6": " DESCRIPTION 6",
+          "POINT7": " DESCRIPTION 7",
+          "POINT8": " DESCRIPTION 8",
+          "POINT9": " DESCRIPTION 9",
+          "POINT10": " DESCRIPTION 10",
+          "POINT11": " DESCRIPTION 11",
+          "POINT12": " DESCRIPTION 12"
+
+
+
+        }
+      },
+      "AWARD9":{
+        "NAME": "Award Name",
+        "EDITION":" Edition Name",
+        "PHOTO_NAME":"Photo Name",
+        "DETAILS": {
+          "POINT0": " DESCRIPTION 0",
+          "POINT1": " DESCRIPTION 1",
+          "POINT2": " DESCRIPTION 2",
+          "POINT3": " DESCRIPTION 3",
+          "POINT4": " DESCRIPTION 4",
+          "POINT5": " DESCRIPTION 5",
+          "POINT6": " DESCRIPTION 6",
+          "POINT7": " DESCRIPTION 7",
+          "POINT8": " DESCRIPTION 8",
+          "POINT9": " DESCRIPTION 9",
+          "POINT10": " DESCRIPTION 10",
+          "POINT11": " DESCRIPTION 11",
+          "POINT12": " DESCRIPTION 12"
+
+
+
+        }
+      },
+      "AWARD10":{
+        "NAME": "Award Name",
+        "EDITION":" Edition Name",
+        "PHOTO_NAME":"Photo Name",
+        "DETAILS": {
+          "POINT0": " DESCRIPTION 0",
+          "POINT1": " DESCRIPTION 1",
+          "POINT2": " DESCRIPTION 2",
+          "POINT3": " DESCRIPTION 3",
+          "POINT4": " DESCRIPTION 4",
+          "POINT5": " DESCRIPTION 5",
+          "POINT6": " DESCRIPTION 6",
+          "POINT7": " DESCRIPTION 7",
+          "POINT8": " DESCRIPTION 8",
+          "POINT9": " DESCRIPTION 9",
+          "POINT10": " DESCRIPTION 10",
+          "POINT11": " DESCRIPTION 11",
+          "POINT12": " DESCRIPTION 12"
+
+
+
+        }
+      }
   },
+
   "BOOKS":{
     "BOOK_CATEGORIES":"Books Categories",
     "BOOKS_LIST":{
@@ -666,10 +811,11 @@
  "DESCRIPTION4": "Description 4"
 },
 "SLIDER_TEXT":{
+ 
   "SLIDER1_TEXT":{
     "TITLE":"Ghaya Foundation for Creativity Launches Next Thursday With Three Awards",
+    "SUMMARY":"Stemming from our belief in the importance of civil society’s participation in shaping individuals, raising awareness, and elevating the soul.",
     "DETAILS":{
-      "SUMMARY":"Stemming from our belief in the importance of civil society’s participation in shaping individuals, raising awareness, and elevating the soul.",
       "POINT1":"Stemming from our belief in the importance of civil society’s participation in shaping individuals, raising awareness, and elevating the soul, Ghaya Foundation for Creativity launches its innovative project that aims to produce diverse creative genres and enrich the Arabic artistic and intellectual content in visual, audio, and written forms via new media, in addition to discovering and presenting a new generation of creative geniuses.",
       "POINT2":"An artistic ceremony is to be held on Thursday September 12th at El Hanager Arts Center located in Cairo Opera House and attended by a number of Arab and foreign ambassadors in addition to a select group of leading writers, authors, critics, artists, and media professionals.",
       "POINT3":"Renowned actors, authors, and intellectuals will be honored in the event that will include artistic performances.",
@@ -684,28 +830,22 @@
     }
   },
   "SLIDER2_TEXT":{
+    "TITLE":"Title of Second Slider",
+    "SUMMARY":"Summary",
     "DETAILS":{
-    "POIN1":"Description 1",
+    "POIN1":"bla bla bla ",
     "POIN2":"Description 2",
     "POIN3":"Description 2"
     }
-
   },
   "SLIDER3_TEXT":{
+    "TITLE":"Title of Third Slider",
+    "SUMMARY":"Summary",
     "DETAILS":{
     "POIN1":"Description 1",
     "POIN2":"Description 2",
     "POIN3":"Description 2"
     }
-
-  },
-  "SLIDER4_TEXT":{
-    "DETAILS":{
-    "POIN1":"Description 1",
-    "POIN2":"Description 2",
-    "POIN3":"Description 2"
-    }
-
   }
 }
 
