@@ -833,18 +833,18 @@
     "TITLE":"Title of Second Slider",
     "SUMMARY":"Summary",
     "DETAILS":{
-    "POIN1":"bla bla bla ",
-    "POIN2":"Description 2",
-    "POIN3":"Description 2"
+    "POINT1":"Description 1",
+    "POINT2":"Description 2",
+    "POINT3":"Description 2"
     }
   },
   "SLIDER3_TEXT":{
     "TITLE":"Title of Third Slider",
     "SUMMARY":"Summary",
     "DETAILS":{
-    "POIN1":"Description 1",
-    "POIN2":"Description 2",
-    "POIN3":"Description 2"
+    "POINT1":"Description 1",
+    "POINT2":"Description 2",
+    "POINT3":"Description 2"
     }
   }
 }
