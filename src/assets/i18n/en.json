@@ -795,26 +795,13 @@
   
 },
 "MEET":"Meet Our Board Members",
-"SLIDER_TITLE":
-{
-  "TITLE1":"Title 1",
-  "TITLE2":"Title 2",
-  "TITLE3":"Title 3",
-  "TITLE4":"Title 4"
 
-
-},
-"SLIDER_DESCRIPTION":{
- "DESCRIPTION1": "Description 1",
- "DESCRIPTION2": "Description 2",
- "DESCRIPTION3": "Description 3",
- "DESCRIPTION4": "Description 4"
-},
 "SLIDER_TEXT":{
  
   "SLIDER1_TEXT":{
     "TITLE":"Ghaya Foundation for Creativity Launches Next Thursday With Three Awards",
     "SUMMARY":"Stemming from our belief in the importance of civil society’s participation in shaping individuals, raising awareness, and elevating the soul.",
+    "DATE":"10-9-2024",
     "DETAILS":{
       "POINT1":"Stemming from our belief in the importance of civil society’s participation in shaping individuals, raising awareness, and elevating the soul, Ghaya Foundation for Creativity launches its innovative project that aims to produce diverse creative genres and enrich the Arabic artistic and intellectual content in visual, audio, and written forms via new media, in addition to discovering and presenting a new generation of creative geniuses.",
       "POINT2":"An artistic ceremony is to be held on Thursday September 12th at El Hanager Arts Center located in Cairo Opera House and attended by a number of Arab and foreign ambassadors in addition to a select group of leading writers, authors, critics, artists, and media professionals.",
@@ -831,11 +818,18 @@
   },
   "SLIDER2_TEXT":{
     "TITLE":"Title of Second Slider",
+    "DATE":"14-9-2024",
     "SUMMARY":"Summary",
     "DETAILS":{
     "POINT1":"Description 1",
     "POINT2":"Description 2",
-    "POINT3":"Description 2"
+    "POINT3":"Description 2",
+    "POINT4":"Description 4",
+    "POINT5":"Description 5",
+    "POINT6":"Description 6",
+    "POINT7":"Description 7",
+    "POINT8":"Description 8",
+    "POINT9":" DESCRIPTION 9"
     }
   },
   "SLIDER3_TEXT":{
@@ -844,7 +838,13 @@
     "DETAILS":{
     "POINT1":"Description 1",
     "POINT2":"Description 2",
-    "POINT3":"Description 2"
+    "POINT3":"Description 2",
+    "POINT4":"Description 4",
+    "POINT5":"Description 5",
+    "POINT6":"Description 6",
+    "POINT7":"Description 7",
+    "POINT8":"Description 8",
+    "POINT9":" DESCRIPTION 9"
     }
   }
 }

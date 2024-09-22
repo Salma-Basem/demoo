@@ -1,6 +1,7 @@
 import { Component, HostBinding } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { TranslateService } from '@ngx-translate/core';
+import { OwlOptions } from 'ngx-owl-carousel-o';
 import { Subscription } from 'rxjs';
 import { LanguageService } from 'src/app/Services/language.service';
 
@@ -10,8 +11,34 @@ import { LanguageService } from 'src/app/Services/language.service';
   styleUrls: ['./slider-page.component.css']
 })
 export class SliderPageComponent {
+  customOptions: OwlOptions = {
+    loop: true,
+    rtl: true,
+    mouseDrag: false,
+    touchDrag: false,
+    pullDrag: false,
+    autoplay: true,
+    dots: false,
+    navSpeed: 700,
+    navText: ['', ''],
+    responsive: {
+      0: {
+        items: 1
+      },
+      400: {
+        items: 1
+      },
+      740: {
+        items: 1
+      },
+      940: {
+        items: 1
+      }
+    },
+    nav: true
+  }
   pageId: string = '';
-  page: { name: string, image: string, description: string[] } = { name: '', image: '', description: [] };
+  page: { name: string, date: string, description: string[] } = { name: '', date: '', description: [] };
   language: string = 'en';
 
   @HostBinding('attr.dir') get dir() {
@@ -41,18 +68,18 @@ export class SliderPageComponent {
       { 
         id: '1',
         nameKey: 'SLIDER_TEXT.SLIDER1_TEXT.TITLE',
-        imageKey: "./assets/Images/slider.png",
+        dateKey:'SLIDER_TEXT.SLIDER1_TEXT.DATE',
         descriptionKey: 'SLIDER_TEXT.SLIDER1_TEXT.DETAILS'
       },
       { 
         id: '2',
-        nameKey: 'SLIDER_TITLE.TITLE2',
-        imageKey: "./assets/Images/slider.png",
+        nameKey: 'SLIDER_TEXT.SLIDER2_TEXT.TITLE',
+        dateKey:'SLIDER_TEXT.SLIDER2_TEXT.DATE',
         descriptionKey: 'SLIDER_TEXT.SLIDER2_TEXT.DETAILS'
       },
       { id: '3',
         nameKey: 'SLIDER_TITLE.TITLE3',
-        imageKey: "./assets/Images/slider.png",
+        dateKey:'SLIDER_TEXT.SLIDER3_TEXT.DATE',
         descriptionKey: 'SLIDER_TEXT.SLIDER3_TEXT.DETAILS'
       }
     ];
@@ -60,7 +87,7 @@ export class SliderPageComponent {
     const page = pageDetails.find(page => page.id === pageId);
   
     if (page) {
-      this.translateService.get([page.nameKey, page.imageKey, page.descriptionKey]).subscribe(translations => {
+      this.translateService.get([page.nameKey, page.dateKey, page.descriptionKey]).subscribe(translations => {
         const descriptionObject = translations[page.descriptionKey] || {};
         
         // Convert descriptionObject to an array of strings
@@ -78,7 +105,7 @@ export class SliderPageComponent {
   
         this.page = {
           name: translations[page.nameKey],
-          image: translations[page.imageKey],
+          date: translations[page.dateKey],
           description: finalDescriptionArray
         };
       });

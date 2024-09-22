@@ -6,18 +6,40 @@
   [dir="ltr"] .lead {
     text-align: left;
   }
+  /* Default alignment for English (LTR) */
+  [dir="ltr"] h4 {
+  text-align: right; /* Align text to the right for LTR */
+}
+
+/* Alignment for Arabic (RTL) */
+[dir="rtl"] h4 {
+  text-align: left; /* Align text to the left for RTL */
+}
 .container
 {
     width: 85%;
 }
+.carousel-item {
+  display: flex;
+  justify-content: center; /* Center the images within the item */
+  padding: 0 15px; /* Padding around the images */
+}
 
-
-
+.carousel-item img {
+  width: 100%; /* Make the image take the full width of its container */
+  height: 500px; /* Set a fixed height (adjust as needed) */
+  object-fit: contain; /* Maintain aspect ratio and cover the area */
+  object-position: top; /* Align the image to the top */
+}
+[dir="rtl"] .carousel-item {
+  flex-direction: row-reverse; /* Reverse direction for RTL languages */
+}
 .book-image {
   display: block; /* Ensure the image is treated as a block element */
   max-width: 100%; /* Ensure the image does not exceed its natural size */
   height: auto; /* Maintain aspect ratio */
 }
+
 
     /* Responsive design adjustments */
     @media (max-width: 768px) {
@@ -25,6 +47,10 @@
           width:100%;
           margin: 0;
           padding: 0;
+        }
+        .carousel-item img {
+          height: 300px; /* Reduced height for small screens */
+          object-fit: contain; /* Change to contain to show more of the image */
         }
 
     }

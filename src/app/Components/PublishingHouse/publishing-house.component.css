@@ -160,9 +160,8 @@ html, body {
 }
 .video-wrapper {
   position: relative;
-  width: 80%; /* Adjust width as needed, e.g., 50% for half width */
-  max-width: 800px; /* Optional: Set a max width to prevent it from getting too large */
-  height: 200px;
+  width: 320px; /* Set the width */
+  height: 290px; /* Set the same height for a square */
   overflow: hidden;
   margin: auto; /* Center horizontally if needed */
 }
@@ -175,6 +174,9 @@ html, body {
   height: 100%;
   border: 0;
 }
+
+
+
   /* Responsive design adjustments */
   @media (max-width: 768px) {
     .container{

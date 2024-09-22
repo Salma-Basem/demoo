@@ -1,17 +1,136 @@
 <div class="container-fluid bg-main py-5 mt-5" [attr.dir]="language === 'ar' ? 'rtl' : 'ltr'">
-  <div class="container row justify-content-center align-items-center mx-auto  mt-5">
-    <h3 class="text-center">{{ page.name }}</h3>
-    <div class=" col-md-6 col-12">
-      <img class="book-image mb-3 " [src]="page.image" alt="{{page.name}}" *ngIf="page.image">
+  <div class="container">
+   <!--slideshow-->
+    <div class="row justify-content-center align-items-center align-content-end">
+      <div class="col-12 mt-5 ">
+        <owl-carousel-o [options]="customOptions">
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage1.jpg" alt="Image 1" class="img-fluid">
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage2.jpg" alt="Image 2" class="img-fluid">
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage3.jpg" alt="Image 3" class="img-fluid">
+            </div>
+          </ng-template>
+
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage4.jpg" alt="Image 4" class="img-fluid">
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage5.jpg" alt="Image 5" class="img-fluid">
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage6.jpg" alt="Image 6" class="img-fluid">
+            </div>
+          </ng-template>
+
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage7.jpg" alt="Image 7" class="img-fluid">
+            </div>
+          </ng-template>
+
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage8.jpg" alt="Image 8" class="img-fluid">
+            </div>
+          </ng-template>
+
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage9.jpg" alt="Image 9" class="img-fluid">
+            </div>
+          </ng-template>
+
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage10.jpg" alt="Image 10" class="img-fluid">
+            </div>
+          </ng-template>
+
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage11.jpg" alt="Image 11" class="img-fluid">
+            </div>
+          </ng-template>
+
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage12.jpg" alt="Image 12" class="img-fluid">
+            </div>
+          </ng-template>
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage13.jpg" alt="Image 13" class="img-fluid">
+            </div>
+          </ng-template>
+
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage14.jpg" alt="Image 14" class="img-fluid">
+            </div>
+          </ng-template>
+
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage15.JPG" alt="Image 15" class="img-fluid">
+            </div>
+          </ng-template>
+
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage16.JPG" alt="Image 16" class="img-fluid">
+            </div>
+          </ng-template>
+
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage17.jpg" alt="Image 17" class="img-fluid">
+            </div>
+          </ng-template>
+
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage18.jpg" alt="Image 18" class="img-fluid">
+            </div>
+          </ng-template>
+
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage19.jpg" alt="Image 19" class="img-fluid">
+            </div>
+          </ng-template>
+
+          <ng-template carouselSlide>
+            <div class="carousel-item">
+              <img src="./assets/Images/sliderImage20.jpg" alt="Image 20" class="img-fluid">
+            </div>
+          </ng-template>
+        </owl-carousel-o>
+      </div>
     </div>
-    <div class="col-12 d-flex flex-column justify-content-start align-items-start" [attr.dir]="dir">
-      <div>
-      
-      
-      <p *ngFor="let item of page.description" class="lead">{{ item }}</p>
+   <!--content of page-->
+    <div class="row justify-content-center align-items-center ">
+      <h3 class="text-center">{{ page.name }}</h3>
+      <div class="col-12 d-flex flex-column justify-content-start align-items-start" [attr.dir]="dir">
+        <div>
+          <h4  class="">{{ page.date }}</h4>
+
+          <p *ngFor="let item of page.description" class="lead">{{ item }}</p>
+        </div>
+      </div>
     </div>
-  </div>
-  
-    
   </div>
 </div>
