@@ -1,58 +1,32 @@
 .carousel-item {
+    transition: transform 0.5s ease, opacity 0.5s ease; 
+    display: none; 
+}
+
+.carousel-item.active {
     display: flex;
     flex-direction: row; /* Default to row layout for larger screens */
     align-items: center;
-    width: 100%;
-    padding: 0 15px; /* Adjust padding as needed */
 }
-
-.carousel-item img {
-    flex: 1;
-    max-width: 50%;
-    height: auto;
-    object-fit: contain;
-}
-
-.carousel-item .text {
-   
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    flex-direction: column;
-}
-
 
 [dir="rtl"] .carousel-item {
-    flex-direction: row-reverse; /* Reverse direction for RTL languages */
+    flex-direction: row; /* Keep the default direction for Arabic */
 }
-[dir="rtl"] .text p {
-text-align: right;
+
+[dir="rtl"] .text-container {
+    text-align: right; /* Right-align text for Arabic */
 }
+
+[dir="ltr"] .text-container {
+    text-align: left; /* Left-align text for English */
+}
+
 
 h3,p,.color
 {color: #ffffff}
 /* Media Query for small screens */
 @media (max-width: 767px) {
   
-    .carousel-item {
-        flex-direction: column; /* Stack image and text vertically */
-        text-align: center; /* Center text on small screens */
-        padding: 30px 10px 20px; /* Adjust padding as needed */
-        margin-top: 5px; /* Remove margin to prevent overflow */
-    }
-
-    .carousel-item img {
-        width: 100%; /* Ensure image takes full width */
-        height: auto; /* Maintain aspect ratio */
-        max-width: none; /* Remove max-width restriction */
-    }
-
-    .carousel-item .text {
-        max-width: 100%; /* Ensure text takes full width */
-        overflow-wrap: break-word;
-        padding: 15px; /* Optional: Add padding to the text */
-    }
-
     h3 {
         font-size: 1.4rem; /* Adjust font size */
     }
@@ -61,12 +35,19 @@ h3,p,.color
         font-size: 1.1rem; /* Adjust font size */
     }
 
-    /* RTL support */
-    [dir="rtl"] .carousel-item {
-        flex-direction: column; /* Reverse direction for RTL languages */
+    .carousel-item {
+        flex-direction: column; /* Stack image and text vertically */
+        text-align: center; /* Center align for better mobile view */
     }
-
-    [dir="rtl"] .text p {
-        text-align: right;
+    
+    .carousel-item img {
+        width: 100%; /* Ensure the image takes full width */
+        height: auto; /* Maintain aspect ratio */
+        order: 1; /* Image first */
+    }
+    
+    .text-container {
+        text-align: center; /* Center text on small screens */
+        order: 2; /* Text second */
     }
 }

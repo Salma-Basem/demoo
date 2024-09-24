@@ -4,7 +4,14 @@ html, body {
   padding: 0;
   height: 100%;
 }
-
+.carousel-indicators {
+  position: relative;
+  bottom: 90px;
+  align-items: center;
+  justify-content: center;
+  z-index: 10; 
+  display: flex; 
+}
 
 /* Updated CSS */
 .background-container {
@@ -42,6 +49,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 app-slider {
@@ -130,7 +138,11 @@ app-slider {
     max-width: 100%; /* Ensure image fits within the container */
    
 }
-
+.carousel-indicators {
+  
+  bottom: 30px;
+ 
+}
 .carousel-item .text {
     max-width: 100%; /* Ensure text takes full width */
     font-size: 1rem;

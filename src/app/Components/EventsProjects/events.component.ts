@@ -7,6 +7,7 @@ import { LanguageService } from 'src/app/Services/language.service';
   styleUrls: ['./events.component.css']
 })
 export class EventsComponent {
+  
   language: string = 'en';
 
   @HostBinding('attr.dir') get dir() {

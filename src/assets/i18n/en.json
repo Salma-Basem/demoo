@@ -376,7 +376,6 @@
            "POINT4": "Subject:",
   "POINT5": "Egypt in Pictures",
   "POINT6": "Conditions:",
-  "POINT7": "The applicant must be at least 18 years old.",
   "POINT8": "The artwork submitted must be original and not copied, and the participant must hold all intellectual and creative rights.",
   "POINT9": "The submitted photos should reflect innovation and creativity, avoiding stereotypes.",
   "POINT10": "The photos submitted should be recent (2022-2024).",
@@ -414,9 +413,7 @@
           "POINT8": "The video must be at least 3 minutes long.",
           "POINT9": "The video must not be published on any website or social media account.",
           "POINT10": "The presentation should be of one of the creative works of the renowned writer Ibrahim Aslan.",
-          "POINT11": "The video must be in Arabic.",
           "POINT12": "The applicant must be at least 18 years old.",
-          "POINT13": "The competition is open to anyone who speaks fluent Arabic, regardless of nationality.",
           "POINT14": "Submissions should be made by sending the video as a standalone file to the email:",
           "POINT15": "Prizes:",
           "POINT16": "A panel of two judges will select three winners from  the applicants to be honored as follows:",
@@ -817,19 +814,19 @@
     }
   },
   "SLIDER2_TEXT":{
-    "TITLE":"Title of Second Slider",
+    "TITLE":"Ghaya Launches Three Competitions for Artists, Opens Door for Publication",
     "DATE":"14-9-2024",
-    "SUMMARY":"Summary",
+    "SUMMARY":"Three awards were announced during the ceremony attended by Egyptians and Arabs in short story, photography and content creation.",
     "DETAILS":{
-    "POINT1":"Description 1",
-    "POINT2":"Description 2",
-    "POINT3":"Description 2",
-    "POINT4":"Description 4",
-    "POINT5":"Description 5",
-    "POINT6":"Description 6",
-    "POINT7":"Description 7",
-    "POINT8":"Description 8",
-    "POINT9":" DESCRIPTION 9"
+    "POINT1":"Last Thursday, El Hanager Arts Center hosted the launching ceremony of Ghaya Foundation for Creativity with a host of writers, authors, critics, artists, and media personalities celebrating it as an innovative goal-oriented entity seeking to produce various forms of creative works, and enriching Arabic content of thought and art, whether in audio, visual, or written forms. The Foundation aims to take advantage of modern technological media along with discovering and introducing a new generation of creative geniuses to continue Egypt’s journey in creativity and emphasize its leading cultural role to build communication bridges with different world cultures.",
+    "POINT2":"Three awards were announced during the ceremony attended by Egyptians and Arabs. The first is in the field of short stories for Egyptians and Arabs, named after famed writer Yahya Haqqi. The second is in photography, named after photographer Mohamed Bakr, and the third is in content creation, named after the distinguished novelist Ibrahim Aslan. The Foundation will accept entries for the three competitions for two months. The value of the three prizes combined is two-hundred thousand Egyptian pounds.",
+    "POINT3":"The Foundation aims to extend written, audio, and visual creative works to the broadest possible audience via interactive and attractive publishing mechanisms through forming a core of visual creative production and podcasting with professional tools and trained and equipped production teams, in a manner that contributes to advancing regional culture and promoting art criticism.",
+    "POINT4":"Writer Murad Maher, chairman of Ghaya Foundation for Creativity’s board of directors, said that the event witnessed the launch of an integrated project that aims to utilize modern technologies which made vast room for creativity in its various forms, out of a belief in the importance of the participation of civil society bodies in shaping individuals, raising awareness, and elevating the soul.",
+    "POINT5":"The Foundation honored a number of artists during the ceremony, including actors Asser Yassin, Samira Ahmed, Ashraf Zaki, Samira Abdelaziz, Sabry Fawwaz, Samiha Ayoub, cinematographer Saeed Shimi and photographer Mohamed Bakr, along with writers Sonallah Ibrahim, the late Yahya Haqqi, whose daughter Noha Haqqi received the award. Also honored were the late novelist Ibrahim Aslan, whose son Hisham received the award, and media professionals Mona Salman and Sahar Abdel-Rahman.",
+    "POINT6":"The Foundation is working on several projects, spearheaded by Ghaya Publishing and Distribution House that has contracts to publish thirty titles in novels, short story collections, travel literature, biographies, poetry collections, prose, classics, and books for youth. The list of titles contracted by the new house includes leading contemporary writers like Sonallah Ibrahim, Ibrahim Abdel Maguid, novelist Khairy Shalaby, as well as emerging writers. The house is also accepting new works in preparation for the upcoming Cairo International Book Fair.",
+    "POINT7":"Emad Al-Adly, Editorial and Publishing Director of Ghaya Publishing and Distribution House, said that the selection of works is based on value and serious creativity worthy of being offered to readers without preference for one creative form over the other.",
+    "POINT8":"“We celebrate the Arab cultural heritage that has enriched world culture and select books of influence in their times that fit publication in the present time with the benefit they bring to the reader,” Al-Adly said. “We also celebrate many top writers of modern times and republish their distinctive and effective works. We care as well for new talents that have something to offer in all fields whether in thought or creative works. We also care for children and youth literature”.",
+    "POINT9":"The Foundation also signed contracts with some content creators, mostly youths with a creative footprint, to offer a number of programs and distinct podcasts in various fields across its electronic channels. Creative production and content creation is the second project that the Foundation has taken concrete steps in and has prepared a special production studio for, equipped with modern technologies. Other projects by the Foundation include a creative academy to be launched that employs specialized faculty members to support talented individuals in attaining professional maturity, as well as establishing partnerships and cooperation protocols with specialized international bodies and creating a mobile application that promotes communication with different age groups locally, regionally, and internationally and includes various creative genres."
     }
   },
   "SLIDER3_TEXT":{

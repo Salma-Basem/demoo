@@ -51,6 +51,7 @@ export class SliderComponent {
     this.languageService.getLanguage().subscribe(language => {
       this.language = language;
     });
+    console.log('SLIDER_TEXT.SLIDER1_TEXT.SUMMARY');
   }
 
   changeLanguage(newLanguage: string) {
